@@ -6,18 +6,25 @@
     "data": {
         "url": "https://raw.githubusercontent.com/single0904/3179/main/malaysia_cases.csv"
     },
+    "selection": {
+        "state_highlight": {
+            "type": "multi",
+            "fields": ["state"],
+            "bind": "legend"
+        }
+    },
     "encoding": {
         "y": {
             "field": "cases_new",
             "type": "quantitative",
-            "scale": {"zero": false},
-            "axis" : {"minExtent": 30}
+            "scale": {"type": "log","zero": false},
+            "axis" : {"minExtent": 30, "tickCount": 3 }
         },
         "x": {
             "field": "cases_recovered",
             "type": "quantitative",
-            "scale": {"zero": false},
-            "axis" : {"minExtent": 30}
+            "scale": {"type": "log","zero": false},
+            "axis" : {"minExtent": 30, "tickCount": 3 }
         }
     },
     "layer": [
@@ -31,7 +38,14 @@
                     {"field": "cases_new", "type": "quantitative", "format": ","},
                     {"field": "cases_recovered", "type": "quantitative", "format": ","},
                     {"field": "cases_active", "type": "quantitative", "format": ","}
-                ] 
+                ],
+                "opacity": {
+                    "condition": {
+                    "selection": "state_highlight",
+                    "value": 0.6
+                    },
+                    "value": 0.2
+                } 
             }
         },
         {
@@ -48,7 +62,7 @@
                 "color": {"value": "black"},
                 "opacity": {
                 "condition": {
-                "test": "datum['state'] == 'Johor' || datum['state'] == 'Kedah' || datum['state'] == 'Kelantan' || datum['state'] == 'Melaka' || datum['state'] == 'Negeri Sembilan' || datum['state'] == 'Pahang' || datum['state'] == 'Perak' || datum['state'] == 'Perlis' || datum['state'] == 'Pulau Pinang' || datum['state'] == 'Sabah' || datum['state'] == 'Sarawak' || datum['state'] == 'Selangor' || datum['state'] == 'Terengganu'",
+                "test": "datum['state'] == 'Melaka' || datum['state'] == 'Negeri Sembilan' || datum['state'] == 'Pahang' || datum['state'] == 'Perak' || datum['state'] == 'Perlis' || datum['state'] == 'Pulau Pinang' || datum['state'] == 'Sabah' || datum['state'] == 'Sarawak' || datum['state'] == 'Selangor' || datum['state'] == 'Terengganu'",
                 "value": 1
                 },
                 "value": 0

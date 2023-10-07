@@ -6,13 +6,52 @@
     "data": {
         "url": "https://raw.githubusercontent.com/single0904/3179/main/malaysia_cases.csv"
     },
-    "selection": {
-        "state_highlight": {
-            "type": "multi",
-            "fields": ["state"],
-            "bind": "legend"
+    "params": [
+        {
+        "name": "state_selection",
+        "bind": {
+            "input": "select",
+            "options": [
+            null,
+            "Johor",
+            "Kedah",
+            "Kelantan",
+            "Melaka",
+            "Negeri Sembilan",
+            "Pahang",
+            "Perak",
+            "Perlis",
+            "Pulau Pinang",
+            "Sabah",
+            "Sarawak",
+            "Selangor",
+            "Terengganu"
+            ],
+            "labels":[
+            "Show All",
+            "Johor",
+            "Kedah",
+            "Kelantan",
+            "Melaka",
+            "Negeri Sembilan",
+            "Pahang",
+            "Perak",
+            "Perlis",
+            "Pulau Pinang",
+            "Sabah",
+            "Sarawak",
+            "Selangor",
+            "Terengganu"
+            ],
+            "name": "State Selection: "
         }
-    },
+    }
+    ],
+    "transform": [
+        {
+            "filter": "state_selection == null || datum.state == state_selection"
+        }
+    ],
     "encoding": {
         "y": {
             "field": "cases_new",
@@ -27,6 +66,7 @@
             "axis" : {"minExtent": 30, "tickCount": 3 }
         }
     },
+
     "layer": [
         {
             "mark": {"type": "circle"},
@@ -38,14 +78,8 @@
                     {"field": "cases_new", "type": "quantitative", "format": ","},
                     {"field": "cases_recovered", "type": "quantitative", "format": ","},
                     {"field": "cases_active", "type": "quantitative", "format": ","}
-                ],
-                "opacity": {
-                    "condition": {
-                    "selection": "state_highlight",
-                    "value": 0.6
-                    },
-                    "value": 0.2
-                } 
+                ]
+
             }
         },
         {

@@ -6,23 +6,60 @@
     "data": {
         "url": "https://raw.githubusercontent.com/single0904/3179/main/malaysia_cases.csv"
     },
-    "mark": {"type": "circle"},
-    "encoding": {
-        "y": {
-            "field": "cases_new",
-            "type": "quantitative",
-            "scale": {"zero": false},
-            "axis" : {"minExtent": 30}
+    "layer": [
+        {
+            "mark": {"type": "circle"},
+            "encoding": {
+                "y": {
+                    "field": "cases_new",
+                    "type": "quantitative",
+                    "scale": {"zero": false},
+                    "axis" : {"minExtent": 30}
+                },
+                "x": {
+                    "field": "cases_recovered",
+                    "type": "quantitative",
+                    "scale": {"zero": false},
+                    "axis" : {"minExtent": 30}
+                },
+                "size": {"field": "state", "type": "nominal"},
+                "color": {"field": "state", "type": "nominal"},
+                "tooltip": [
+                    {"field": "state", "type": "nominal"},
+                    {"field": "cases_new", "type": "quantitative", "format": ","},
+                    {"field": "cases_recovered", "type": "quantitative", "format": ","},
+                    {"field": "cases_active", "type": "quantitative", "format": ","}
+                ] 
+            }
         },
-        "x": {
-            "field": "cases_recovered",
-            "type": "quantitative",
-            "scale": {"zero": false},
-            "axis" : {"minExtent": 30}
-        },
-        "size": {"field": "state", "type": "nominal"},
-        "color": {"field": "state", "type": "nominal"} 
-    }
+        {
+            "mark": {
+            "type": "text",
+            "align": "right",
+            "baseline": "middle",
+            "dx": -12,
+            "fontSize": 11.5,
+            "fontStyle": "italic"
+            },
+            "encoding": {
+                "text": {"field": "state", "type": "nominal"},
+                "color": {"value": "black"},
+                "opacity": {
+                "condition": {
+                "test": "datum['state'] == 'Johor' || datum['state'] == 'Kedah' || datum['state'] == 'Kelantan' || datum['state'] == 'Melaka' || datum['state'] == 'Negeri Sembilan' || datum['state'] == 'Pahang' || datum['state'] == 'Perak' || datum['state'] == 'Perlis' || datum['state'] == 'Pulau Pinang' || datum['state'] == 'Sabah' || datum['state'] == 'Sarawak' || datum['state'] == 'Selangor' || datum['state'] == 'Terengganu'",
+                "value": 1
+                },
+                "value": 0
+                },
+                "tooltip": [
+                    {"field": "state", "type": "nominal"},
+                    {"field": "cases_new", "type": "quantitative", "format": ","},
+                    {"field": "cases_recovered", "type": "quantitative", "format": ","},
+                    {"field": "cases_active", "type": "quantitative", "format": ","}
+                ] 
+            }
+        }      
+    ]
 }
     
 

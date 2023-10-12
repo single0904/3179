@@ -1,14 +1,27 @@
-﻿state,group,value,,state,group,value
-Johor,cases_new,400890,,Johor,cases_recovered,394314
-Kedah,cases_new,321684,,Kedah,cases_recovered,319289
-Kelantan,cases_new,263108,,Kelantan,cases_recovered,261483
-Melaka,cases_new,151216,,Melaka,cases_recovered,148393
-Negeri Sembilan,cases_new,233913,,Negeri Sembilan,cases_recovered,232081
-Pahang,cases_new,184534,,Pahang,cases_recovered,182852
-Perak,cases_new,243101,,Perak,cases_recovered,240374
-Perlis,cases_new,19461,,Perlis,cases_recovered,19188
-Pulau Pinang,cases_new,311968,,Pulau Pinang,cases_recovered,309574
-Sabah,cases_new,408120,,Sabah,cases_recovered,401398
-Sarawak,cases_new,327927,,Sarawak,cases_recovered,325909
-Selangor,cases_new,1575889,,Selangor,cases_recovered,1563455
-Terengganu,cases_new,134598,,Terengganu,cases_recovered,133403
+﻿state,group,value
+Johor,cases_new,400890
+Johor,cases_recovered,394314
+Kedah,cases_new,321684
+Kedah,cases_recovered,319289
+Kelantan,cases_new,263108
+Kelantan,cases_recovered,261483
+Melaka,cases_new,151216
+Melaka,cases_recovered,148393
+Negeri Sembilan,cases_new,233913
+Negeri Sembilan,cases_recovered,232081
+Pahang,cases_new,184534
+Pahang,cases_recovered,182852
+Perak,cases_new,243101
+Perak,cases_recovered,240374
+Perlis,cases_new,19461
+Perlis,cases_recovered,19188
+Pulau Pinang,cases_new,311968
+Pulau Pinang,cases_recovered,309574
+Sabah,cases_new,408120
+Sabah,cases_recovered,401398
+Sarawak,cases_new,327927
+Sarawak,cases_recovered,325909
+Selangor,cases_new,1575889
+Selangor,cases_recovered,1563455
+Terengganu,cases_new,134598
+Terengganu,cases_recovered,133403

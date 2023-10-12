@@ -12,7 +12,7 @@
         {
             "transform": [
         {
-            "lookup": "properties.name",
+            "lookup": "properties.NAME",
             "from": {
                 "data": {
                     "url": "https://raw.githubusercontent.com/single0904/3179/main/malaysia_cases.csv"

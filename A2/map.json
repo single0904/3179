@@ -37,7 +37,7 @@
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
-                    "domain": [null,100, 200, 300],
+                    "domain": [0,100, 200, 300],
                     "range": ["#e6f5c9","#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                 }
             },

@@ -53,8 +53,8 @@
           },
           {
             "data": {
-              "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
-              "format": {"type": "topojson", "feature": "oceans"}
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_110m_ocean.json",
+              "format": {"type": "topojson", "feature": "ne_110m_ocean"}
             },
             "mark": {"type": "geoshape", "fill": "skyblue"}
           }

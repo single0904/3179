@@ -1,25 +1,22 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A bar chart that sorts the y-values by the x-values.",
-    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/A2/malaysia_cases(without_extra_states).csv"},
-    "height": {"step": 17},
+    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/A2/stacked_bar%20.csv"
+    },
+    "title": {
+      "text": "Total number of cases vs total number of recovered cases in each state",
+      "subtitle": "Stacked bar chart",
+      "subtitleColor": "gray"
+    },
     "mark": "bar",
     "encoding": {
-      "y": {
-        "field": "state",
-        "type": "ordinal",
-        "sort": "-x",
-        "title": "States in Malaysia"
-      },
-      "x": {
-        "aggregate": "sum",
-        "field": "cases_recovered",
-        "title": "Cases Recovered"
-      },
-        "color": {"value": "#fd8d3c"},
-        "tooltip": [
-            {"field": "state", "type": "nominal", "title": "states"},
-            {"field": "cases_recovered", "type": "quantitative"}
-        ]
+      "x": {"field": "state", "title": "States", "type": "nominal"},
+      "y": {"field": "value", "type": "quantitative", "title": "Number of people"},
+      "xOffset": {"field": "group"},
+      "color": {"field": "group", "title": "Type of cases", "type": "nominal"},
+      "tooltip": [
+              {"field": "state", "type": "nominal", "title": "states"},
+              {"field": "group", "type": "nominal"},
+              {"field": "value", "type": "quantitative"}
+          ]
     }
   }

@@ -23,24 +23,24 @@
             },
             "transform": [
         {
-            "lookup": "properties.SOVEREIGNT",
+            "lookup": "properties.NAME",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/covid_worldwide.json"
+                    "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/covid_worldwide.csv"
                 },
                 "key": "Country",
-                "fields": ["Total Cases"]
+                "fields": ["Total_Cases"]
             }
         },
         {
-            "calculate": "datum.TotalCases/1000 ", 
+            "calculate": "datum.Total_Cases/1000 ", 
             "as": "New Cases per 1000 people"}
         ],
 
         "mark": {"type": "geoshape"},
         "encoding": {
             "color": {
-                "field": "Total Cases",
+                "field": "Total_Cases",
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
@@ -50,7 +50,7 @@
             },
                 "tooltip": [
                     {"field": "properties.SOVEREIGNT", "type": "nominal", "title": "Country"},
-                    {"field": "Total Cases", "type": "quantitative"}                ]
+                    {"field": "Total_Cases", "type": "quantitative"}                ]
             }
         },
         {

@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple radial chart with embedded data.",
+    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/A2/vaccinated_data.csv"
+    },
+    "title": "The Number of cases of Unvax, Partially Vaxed and Fully Vaxed people",
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text", "radiusOffset": 21},
+      "encoding": {
+        "text": {"field": "value", "type": "quantitative"}
+      }
+    }],
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative", "stack": true},
+      "radius": {"field": "value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {"field": "category", "type": "nominal"},
+      "tooltip": [
+        {"field": "category", "type": "nominal"},
+        {"field": "value", "type": "quantitative"}
+      ]
+    }
+  }

@@ -3,8 +3,7 @@
     "title": "Malaysia Covid-19 Cases per 1000 people",
     "width": 800,
     "height": 400,
-    
-    "projection": {"type": "equalEarth", "center": [113, 4.2]},
+    "projection": {"type": "equalEarth"},
     "data": { 
         "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/ne_10m_admin_1_states_provinces.json",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}

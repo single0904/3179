@@ -5,11 +5,22 @@
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": { 
-        "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/ne_110m_admin_0_countries.json",
+        "url": "https://raw.githubusercontent.com/regantan/FIT3179/main/choropleth_map/js/ne_110m.json",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "layer":[
         {
+            "data": {
+              "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+              "format": {"type": "topojson", "feature": "oceans"}
+            },
+            "mark": {"type": "geoshape", "fill": "skyblue"}
+          },
+        {
+            "data": { 
+                "url": "https://raw.githubusercontent.com/regantan/FIT3179/main/choropleth_map/js/ne_110m.json",
+            "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+            },
             "transform": [
         {
             "lookup": "properties.SOVEREIGNT",
@@ -18,7 +29,7 @@
                     "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/covid_worldwide.csv"
                 },
                 "key": "Country",
-                "fields": ["Serial ","Total Cases", "Total Deaths", "Total Recovered","Active Cases", "Total Test", "Population"]
+                "fields": ["Total Cases"]
             }
         },
         {
@@ -29,19 +40,17 @@
         "mark": {"type": "geoshape"},
         "encoding": {
             "color": {
-                "field": "New Cases per 1000 people",
+                "field": "Total Cases",
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
-                    "domain": [100, 200, 300],
+                    "domain": [100000000, 200000000, 300000000],
                     "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                 }
             },
                 "tooltip": [
-                    {"field": "properties.name", "type": "nominal", "title": "states"},
-                    {"field": "Total Cases", "type": "quantitative"},
-                    {"field": "New Cases per 1000 people", "type": "quantitative", "title": "New Cases per 1000 people"}
-                ]
+                    {"field": "properties.SOVEREIGNT", "type": "nominal", "title": "Country"},
+                    {"field": "Total Cases", "type": "quantitative"}                ]
             }
         },
         {
@@ -50,13 +59,6 @@
               "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
             },
             "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
-          },
-          {
-            "data": {
-              "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/ne_110m_ocean%20(1).json",
-              "format": {"type": "topojson", "feature": "ne_110m_ocean"}
-            },
-            "mark": {"type": "geoshape", "fill": "skyblue"}
           }
     ]
 }

@@ -1,0 +1,2312 @@
+[
+ {
+   "Serial Number": 1,
+   "Country": "USA",
+   "Total Cases": "104,196,861",
+   "Total Deaths": "1,132,935",
+   "Total Recovered": "101,322,779",
+   "Active Cases": "1,741,147",
+   "Total Test": "1,159,832,679",
+   "Population": "334,805,269"
+ },
+ {
+   "Serial Number": 2,
+   "Country": "India",
+   "Total Cases": "44,682,784",
+   "Total Deaths": "530,740",
+   "Total Recovered": "44,150,289",
+   "Active Cases": "1,755",
+   "Total Test": "915,265,788",
+   "Population": "1,406,631,776"
+ },
+ {
+   "Serial Number": 3,
+   "Country": "France",
+   "Total Cases": "39,524,311",
+   "Total Deaths": "164,233",
+   "Total Recovered": "39,264,546",
+   "Active Cases": "95,532",
+   "Total Test": "271,490,188",
+   "Population": "65,584,518"
+ },
+ {
+   "Serial Number": 4,
+   "Country": "Germany",
+   "Total Cases": "37,779,833",
+   "Total Deaths": "165,711",
+   "Total Recovered": "37,398,100",
+   "Active Cases": "216,022",
+   "Total Test": "122,332,384",
+   "Population": "83,883,596"
+ },
+ {
+   "Serial Number": 5,
+   "Country": "Brazil",
+   "Total Cases": "36,824,580",
+   "Total Deaths": "697,074",
+   "Total Recovered": "35,919,372",
+   "Active Cases": "208,134",
+   "Total Test": "63,776,166",
+   "Population": "215,353,593"
+ },
+ {
+   "Serial Number": 6,
+   "Country": "Japan",
+   "Total Cases": "32,588,442",
+   "Total Deaths": "68,399",
+   "Total Recovered": "21,567,425",
+   "Active Cases": "10,952,618",
+   "Total Test": "92,144,639",
+   "Population": "125,584,838"
+ },
+ {
+   "Serial Number": 7,
+   "Country": "S. Korea",
+   "Total Cases": "30,197,066",
+   "Total Deaths": "33,486",
+   "Total Recovered": "29,740,877",
+   "Active Cases": "422,703",
+   "Total Test": "15,804,065",
+   "Population": "51,329,899"
+ },
+ {
+   "Serial Number": 8,
+   "Country": "Italy",
+   "Total Cases": "25,453,789",
+   "Total Deaths": "186,833",
+   "Total Recovered": "25,014,986",
+   "Active Cases": "251,970",
+   "Total Test": "265,478,247",
+   "Population": "60,262,770"
+ },
+ {
+   "Serial Number": 9,
+   "Country": "UK",
+   "Total Cases": "24,274,361",
+   "Total Deaths": "204,171",
+   "Total Recovered": "24,020,088",
+   "Active Cases": "50,102",
+   "Total Test": "522,526,476",
+   "Population": "68,497,907"
+ },
+ {
+   "Serial Number": 10,
+   "Country": "Russia",
+   "Total Cases": "21,958,696",
+   "Total Deaths": "395,108",
+   "Total Recovered": "21,356,008",
+   "Active Cases": "207,580",
+   "Total Test": "273,400,000",
+   "Population": "145,805,947"
+ },
+ {
+   "Serial Number": 11,
+   "Country": "Turkey",
+   "Total Cases": "17,042,722",
+   "Total Deaths": "101,492",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "162,743,369",
+   "Population": "85,561,976"
+ },
+ {
+   "Serial Number": 12,
+   "Country": "Spain",
+   "Total Cases": "13,731,478",
+   "Total Deaths": "118,434",
+   "Total Recovered": "13,557,699",
+   "Active Cases": "55,345",
+   "Total Test": "471,036,328",
+   "Population": "46,719,142"
+ },
+ {
+   "Serial Number": 13,
+   "Country": "Vietnam",
+   "Total Cases": "11,526,508",
+   "Total Deaths": "43,186",
+   "Total Recovered": "10,612,479",
+   "Active Cases": "870,843",
+   "Total Test": "85,826,548",
+   "Population": "98,953,541"
+ },
+ {
+   "Serial Number": 14,
+   "Country": "Australia",
+   "Total Cases": "11,295,446",
+   "Total Deaths": "18,615",
+   "Total Recovered": "11,235,771",
+   "Active Cases": "41,060",
+   "Total Test": "78,835,048",
+   "Population": "26,068,792"
+ },
+ {
+   "Serial Number": 15,
+   "Country": "Argentina",
+   "Total Cases": "10,037,135",
+   "Total Deaths": "130,421",
+   "Total Recovered": "9,877,032",
+   "Active Cases": "29,682",
+   "Total Test": "35,716,069",
+   "Population": "46,010,234"
+ },
+ {
+   "Serial Number": 16,
+   "Country": "Taiwan",
+   "Total Cases": "9,569,611",
+   "Total Deaths": "16,356",
+   "Total Recovered": "9,129,766",
+   "Active Cases": "423,489",
+   "Total Test": "30,207,485",
+   "Population": "23,888,595"
+ },
+ {
+   "Serial Number": 17,
+   "Country": "Netherlands",
+   "Total Cases": "8,582,500",
+   "Total Deaths": "22,989",
+   "Total Recovered": "8,547,771",
+   "Active Cases": "11,740",
+   "Total Test": "25,984,435",
+   "Population": "17,211,447"
+ },
+ {
+   "Serial Number": 18,
+   "Country": "Iran",
+   "Total Cases": "7,564,350",
+   "Total Deaths": "144,749",
+   "Total Recovered": "7,337,549",
+   "Active Cases": "82,052",
+   "Total Test": "54,420,785",
+   "Population": "86,022,837"
+ },
+ {
+   "Serial Number": 19,
+   "Country": "Mexico",
+   "Total Cases": "7,368,252",
+   "Total Deaths": "332,198",
+   "Total Recovered": "6,606,633",
+   "Active Cases": "429,421",
+   "Total Test": "19,356,195",
+   "Population": "131,562,772"
+ },
+ {
+   "Serial Number": 20,
+   "Country": "Indonesia",
+   "Total Cases": "6,730,289",
+   "Total Deaths": "160,817",
+   "Total Recovered": "6,565,208",
+   "Active Cases": "4,264",
+   "Total Test": "114,158,919",
+   "Population": "279,134,505"
+ },
+ {
+   "Serial Number": 21,
+   "Country": "Poland",
+   "Total Cases": "6,380,225",
+   "Total Deaths": "118,736",
+   "Total Recovered": "5,335,940",
+   "Active Cases": "925,549",
+   "Total Test": "38,118,630",
+   "Population": "37,739,785"
+ },
+ {
+   "Serial Number": 22,
+   "Country": "Colombia",
+   "Total Cases": "6,356,309",
+   "Total Deaths": "142,486",
+   "Total Recovered": "6,179,501",
+   "Active Cases": "34,322",
+   "Total Test": "36,951,507",
+   "Population": "51,512,762"
+ },
+ {
+   "Serial Number": 23,
+   "Country": "Austria",
+   "Total Cases": "5,780,229",
+   "Total Deaths": "21,689",
+   "Total Recovered": "5,730,189",
+   "Active Cases": "28,351",
+   "Total Test": "211,273,524",
+   "Population": "9,066,710"
+ },
+ {
+   "Serial Number": 24,
+   "Country": "Greece",
+   "Total Cases": "5,708,301",
+   "Total Deaths": "35,630",
+   "Total Recovered": "5,662,212",
+   "Active Cases": "10,459",
+   "Total Test": "102,228,365",
+   "Population": "10,316,637"
+ },
+ {
+   "Serial Number": 25,
+   "Country": "Portugal",
+   "Total Cases": "5,563,907",
+   "Total Deaths": "26,022",
+   "Total Recovered": "5,532,366",
+   "Active Cases": "5,519",
+   "Total Test": "45,915,651",
+   "Population": "10,140,570"
+ },
+ {
+   "Serial Number": 26,
+   "Country": "Ukraine",
+   "Total Cases": "5,370,131",
+   "Total Deaths": "111,020",
+   "Total Recovered": "5,253,302",
+   "Active Cases": "5,809",
+   "Total Test": "32,603,805",
+   "Population": "43,192,122"
+ },
+ {
+   "Serial Number": 27,
+   "Country": "Chile",
+   "Total Cases": "5,118,981",
+   "Total Deaths": "63,812",
+   "Total Recovered": "5,051,555",
+   "Active Cases": "3,614",
+   "Total Test": "48,127,301",
+   "Population": "19,250,195"
+ },
+ {
+   "Serial Number": 28,
+   "Country": "Malaysia",
+   "Total Cases": "5,036,593",
+   "Total Deaths": "36,942",
+   "Total Recovered": "4,989,861",
+   "Active Cases": "9,790",
+   "Total Test": "67,665,089",
+   "Population": "33,181,072"
+ },
+ {
+   "Serial Number": 29,
+   "Country": "Israel",
+   "Total Cases": "4,786,189",
+   "Total Deaths": "12,193",
+   "Total Recovered": "4,768,242",
+   "Active Cases": "5,754",
+   "Total Test": "41,373,364",
+   "Population": "9,326,000"
+ },
+ {
+   "Serial Number": 30,
+   "Country": "DPRK",
+   "Total Cases": "4,772,813",
+   "Total Deaths": "74",
+   "Total Recovered": "4,772,739",
+   "Active Cases": "0",
+   "Total Test": "",
+   "Population": "25,990,679"
+ },
+ {
+   "Serial Number": 31,
+   "Country": "Thailand",
+   "Total Cases": "4,726,984",
+   "Total Deaths": "33,865",
+   "Total Recovered": "4,692,636",
+   "Active Cases": "483",
+   "Total Test": "17,270,775",
+   "Population": "70,078,203"
+ },
+ {
+   "Serial Number": 32,
+   "Country": "Belgium",
+   "Total Cases": "4,691,499",
+   "Total Deaths": "33,557",
+   "Total Recovered": "4,644,681",
+   "Active Cases": "13,261",
+   "Total Test": "36,548,544",
+   "Population": "11,668,278"
+ },
+ {
+   "Serial Number": 33,
+   "Country": "Czechia",
+   "Total Cases": "4,590,019",
+   "Total Deaths": "42,312",
+   "Total Recovered": "4,538,304",
+   "Active Cases": "9,403",
+   "Total Test": "56,893,223",
+   "Population": "10,736,784"
+ },
+ {
+   "Serial Number": 34,
+   "Country": "Canada",
+   "Total Cases": "4,550,256",
+   "Total Deaths": "50,380",
+   "Total Recovered": "4,444,013",
+   "Active Cases": "55,863",
+   "Total Test": "66,343,123",
+   "Population": "38,388,419"
+ },
+ {
+   "Serial Number": 35,
+   "Country": "Peru",
+   "Total Cases": "4,481,621",
+   "Total Deaths": "218,931",
+   "Total Recovered": "4,258,688",
+   "Active Cases": "4,002",
+   "Total Test": "37,754,603",
+   "Population": "33,684,208"
+ },
+ {
+   "Serial Number": 36,
+   "Country": "Switzerland",
+   "Total Cases": "4,385,701",
+   "Total Deaths": "14,452",
+   "Total Recovered": "4,366,770",
+   "Active Cases": "4,479",
+   "Total Test": "23,318,743",
+   "Population": "8,773,637"
+ },
+ {
+   "Serial Number": 37,
+   "Country": "Philippines",
+   "Total Cases": "4,073,454",
+   "Total Deaths": "65,802",
+   "Total Recovered": "3,998,048",
+   "Active Cases": "9,604",
+   "Total Test": "34,343,332",
+   "Population": "112,508,994"
+ },
+ {
+   "Serial Number": 38,
+   "Country": "South Africa",
+   "Total Cases": "4,055,966",
+   "Total Deaths": "102,595",
+   "Total Recovered": "3,912,506",
+   "Active Cases": "40,865",
+   "Total Test": "26,473,049",
+   "Population": "60,756,135"
+ },
+ {
+   "Serial Number": 39,
+   "Country": "Romania",
+   "Total Cases": "3,325,006",
+   "Total Deaths": "67,576",
+   "Total Recovered": "3,252,104",
+   "Active Cases": "5,326",
+   "Total Test": "26,389,988",
+   "Population": "19,031,335"
+ },
+ {
+   "Serial Number": 40,
+   "Country": "Denmark",
+   "Total Cases": "3,173,247",
+   "Total Deaths": "8,145",
+   "Total Recovered": "3,163,849",
+   "Active Cases": "1,253",
+   "Total Test": "129,144,754",
+   "Population": "5,834,950"
+ },
+ {
+   "Serial Number": 41,
+   "Country": "Hong Kong",
+   "Total Cases": "2,877,280",
+   "Total Deaths": "13,358",
+   "Total Recovered": "2,509,483",
+   "Active Cases": "354,439",
+   "Total Test": "76,123,870",
+   "Population": "7,604,299"
+ },
+ {
+   "Serial Number": 42,
+   "Country": "Sweden",
+   "Total Cases": "2,693,458",
+   "Total Deaths": "23,246",
+   "Total Recovered": "2,658,039",
+   "Active Cases": "12,173",
+   "Total Test": "19,410,527",
+   "Population": "10,218,971"
+ },
+ {
+   "Serial Number": 43,
+   "Country": "Serbia",
+   "Total Cases": "2,471,198",
+   "Total Deaths": "17,701",
+   "Total Recovered": "2,440,527",
+   "Active Cases": "12,970",
+   "Total Test": "12,154,486",
+   "Population": "8,653,016"
+ },
+ {
+   "Serial Number": 44,
+   "Country": "Iraq",
+   "Total Cases": "2,465,545",
+   "Total Deaths": "25,375",
+   "Total Recovered": "2,439,497",
+   "Active Cases": "673",
+   "Total Test": "19,544,451",
+   "Population": "42,164,965"
+ },
+ {
+   "Serial Number": 45,
+   "Country": "Singapore",
+   "Total Cases": "2,217,110",
+   "Total Deaths": "1,722",
+   "Total Recovered": "2,144,490",
+   "Active Cases": "70,898",
+   "Total Test": "24,756,666",
+   "Population": "5,943,546"
+ },
+ {
+   "Serial Number": 46,
+   "Country": "Hungary",
+   "Total Cases": "2,192,447",
+   "Total Deaths": "48,677",
+   "Total Recovered": "2,139,857",
+   "Active Cases": "3,913",
+   "Total Test": "11,394,556",
+   "Population": "9,606,259"
+ },
+ {
+   "Serial Number": 47,
+   "Country": "New Zealand",
+   "Total Cases": "2,182,355",
+   "Total Deaths": "3,781",
+   "Total Recovered": "2,169,320",
+   "Active Cases": "9,254",
+   "Total Test": "7,710,637",
+   "Population": "4,898,203"
+ },
+ {
+   "Serial Number": 48,
+   "Country": "Bangladesh",
+   "Total Cases": "2,037,556",
+   "Total Deaths": "29,442",
+   "Total Recovered": "1,992,694",
+   "Active Cases": "15,420",
+   "Total Test": "15,247,014",
+   "Population": "167,885,689"
+ },
+ {
+   "Serial Number": 49,
+   "Country": "Slovakia",
+   "Total Cases": "1,860,893",
+   "Total Deaths": "20,946",
+   "Total Recovered": "1,839,309",
+   "Active Cases": "638",
+   "Total Test": "7,390,781",
+   "Population": "5,460,193"
+ },
+ {
+   "Serial Number": 50,
+   "Country": "Georgia",
+   "Total Cases": "1,814,180",
+   "Total Deaths": "16,926",
+   "Total Recovered": "1,776,548",
+   "Active Cases": "20,706",
+   "Total Test": "16,920,079",
+   "Population": "3,968,738"
+ },
+ {
+   "Serial Number": 51,
+   "Country": "Jordan",
+   "Total Cases": "1,746,997",
+   "Total Deaths": "14,122",
+   "Total Recovered": "1,731,007",
+   "Active Cases": "1,868",
+   "Total Test": "17,201,885",
+   "Population": "10,300,869"
+ },
+ {
+   "Serial Number": 52,
+   "Country": "Ireland",
+   "Total Cases": "1,700,253",
+   "Total Deaths": "8,462",
+   "Total Recovered": "1,685,183",
+   "Active Cases": "6,608",
+   "Total Test": "12,984,257",
+   "Population": "5,020,199"
+ },
+ {
+   "Serial Number": 53,
+   "Country": "Pakistan",
+   "Total Cases": "1,576,313",
+   "Total Deaths": "30,640",
+   "Total Recovered": "1,538,689",
+   "Active Cases": "6,984",
+   "Total Test": "30,570,862",
+   "Population": "229,488,994"
+ },
+ {
+   "Serial Number": 54,
+   "Country": "Norway",
+   "Total Cases": "1,477,856",
+   "Total Deaths": "5,112",
+   "Total Recovered": "1,471,835",
+   "Active Cases": "909",
+   "Total Test": "11,002,430",
+   "Population": "5,511,370"
+ },
+ {
+   "Serial Number": 55,
+   "Country": "Finland",
+   "Total Cases": "1,458,619",
+   "Total Deaths": "8,639",
+   "Total Recovered": "1,447,569",
+   "Active Cases": "2,411",
+   "Total Test": "12,017,711",
+   "Population": "5,554,960"
+ },
+ {
+   "Serial Number": 56,
+   "Country": "Kazakhstan",
+   "Total Cases": "1,405,917",
+   "Total Deaths": "13,695",
+   "Total Recovered": "1,383,020",
+   "Active Cases": "9,202",
+   "Total Test": "11,575,012",
+   "Population": "19,205,043"
+ },
+ {
+   "Serial Number": 57,
+   "Country": "Slovenia",
+   "Total Cases": "1,321,852",
+   "Total Deaths": "7,056",
+   "Total Recovered": "1,311,159",
+   "Active Cases": "3,637",
+   "Total Test": "2,824,843",
+   "Population": "2,078,034"
+ },
+ {
+   "Serial Number": 58,
+   "Country": "Lithuania",
+   "Total Cases": "1,296,865",
+   "Total Deaths": "9,545",
+   "Total Recovered": "1,282,528",
+   "Active Cases": "4,792",
+   "Total Test": "10,350,770",
+   "Population": "2,661,708"
+ },
+ {
+   "Serial Number": 59,
+   "Country": "Bulgaria",
+   "Total Cases": "1,295,426",
+   "Total Deaths": "38,179",
+   "Total Recovered": "1,254,491",
+   "Active Cases": "2,756",
+   "Total Test": "10,987,749",
+   "Population": "6,844,597"
+ },
+ {
+   "Serial Number": 60,
+   "Country": "Morocco",
+   "Total Cases": "1,272,240",
+   "Total Deaths": "16,296",
+   "Total Recovered": "1,255,881",
+   "Active Cases": "63",
+   "Total Test": "12,930,733",
+   "Population": "37,772,756"
+ },
+ {
+   "Serial Number": 61,
+   "Country": "Croatia",
+   "Total Cases": "1,267,580",
+   "Total Deaths": "17,877",
+   "Total Recovered": "1,249,168",
+   "Active Cases": "535",
+   "Total Test": "5,476,183",
+   "Population": "4,059,286"
+ },
+ {
+   "Serial Number": 62,
+   "Country": "Lebanon",
+   "Total Cases": "1,228,639",
+   "Total Deaths": "10,790",
+   "Total Recovered": "1,087,587",
+   "Active Cases": "130,262",
+   "Total Test": "4,795,578",
+   "Population": "6,684,849"
+ },
+ {
+   "Serial Number": 63,
+   "Country": "Guatemala",
+   "Total Cases": "1,227,853",
+   "Total Deaths": "20,106",
+   "Total Recovered": "1,204,545",
+   "Active Cases": "3,202",
+   "Total Test": "6,757,892",
+   "Population": "18,584,039"
+ },
+ {
+   "Serial Number": 64,
+   "Country": "Bolivia",
+   "Total Cases": "1,187,986",
+   "Total Deaths": "22,346",
+   "Total Recovered": "1,146,143",
+   "Active Cases": "19,497",
+   "Total Test": "2,705,422",
+   "Population": "11,992,656"
+ },
+ {
+   "Serial Number": 65,
+   "Country": "Costa Rica",
+   "Total Cases": "1,186,176",
+   "Total Deaths": "9,158",
+   "Total Recovered": "860,711",
+   "Active Cases": "316,307",
+   "Total Test": "4,659,757",
+   "Population": "5,182,354"
+ },
+ {
+   "Serial Number": 66,
+   "Country": "Tunisia",
+   "Total Cases": "1,150,356",
+   "Total Deaths": "29,308",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "4,997,373",
+   "Population": "12,046,656"
+ },
+ {
+   "Serial Number": 67,
+   "Country": "Cuba",
+   "Total Cases": "1,112,438",
+   "Total Deaths": "8,530",
+   "Total Recovered": "1,103,799",
+   "Active Cases": "109",
+   "Total Test": "14,298,479",
+   "Population": "11,305,652"
+ },
+ {
+   "Serial Number": 68,
+   "Country": "Ecuador",
+   "Total Cases": "1,051,239",
+   "Total Deaths": "35,942",
+   "Total Recovered": "1,011,682",
+   "Active Cases": "3,615",
+   "Total Test": "3,082,403",
+   "Population": "18,113,361"
+ },
+ {
+   "Serial Number": 69,
+   "Country": "UAE",
+   "Total Cases": "1,049,409",
+   "Total Deaths": "2,348",
+   "Total Recovered": "1,032,735",
+   "Active Cases": "14,326",
+   "Total Test": "198,638,806",
+   "Population": "10,081,785"
+ },
+ {
+   "Serial Number": 70,
+   "Country": "Uruguay",
+   "Total Cases": "1,032,710",
+   "Total Deaths": "7,609",
+   "Total Recovered": "1,023,939",
+   "Active Cases": "1,162",
+   "Total Test": "6,114,822",
+   "Population": "3,496,016"
+ },
+ {
+   "Serial Number": 71,
+   "Country": "Panama",
+   "Total Cases": "1,029,701",
+   "Total Deaths": "8,596",
+   "Total Recovered": "1,020,206",
+   "Active Cases": "899",
+   "Total Test": "7,475,016",
+   "Population": "4,446,964"
+ },
+ {
+   "Serial Number": 72,
+   "Country": "Mongolia",
+   "Total Cases": "1,007,871",
+   "Total Deaths": "2,179",
+   "Total Recovered": "1,005,658",
+   "Active Cases": "34",
+   "Total Test": "4,030,048",
+   "Population": "3,378,078"
+ },
+ {
+   "Serial Number": 73,
+   "Country": "Nepal",
+   "Total Cases": "1,001,102",
+   "Total Deaths": "12,020",
+   "Total Recovered": "989,064",
+   "Active Cases": "18",
+   "Total Test": "6,003,944",
+   "Population": "30,225,582"
+ },
+ {
+   "Serial Number": 74,
+   "Country": "Belarus",
+   "Total Cases": "994,037",
+   "Total Deaths": "7,118",
+   "Total Recovered": "985,592",
+   "Active Cases": "1,327",
+   "Total Test": "13,646,641",
+   "Population": "9,432,800"
+ },
+ {
+   "Serial Number": 75,
+   "Country": "Latvia",
+   "Total Cases": "975,355",
+   "Total Deaths": "6,218",
+   "Total Recovered": "968,830",
+   "Active Cases": "307",
+   "Total Test": "7,858,319",
+   "Population": "1,848,837"
+ },
+ {
+   "Serial Number": 76,
+   "Country": "Saudi Arabia",
+   "Total Cases": "827,962",
+   "Total Deaths": "9,574",
+   "Total Recovered": "815,528",
+   "Active Cases": "2,860",
+   "Total Test": "45,048,008",
+   "Population": "35,844,909"
+ },
+ {
+   "Serial Number": 77,
+   "Country": "Azerbaijan",
+   "Total Cases": "827,944",
+   "Total Deaths": "10,085",
+   "Total Recovered": "817,654",
+   "Active Cases": "205",
+   "Total Test": "7,487,550",
+   "Population": "10,300,205"
+ },
+ {
+   "Serial Number": 78,
+   "Country": "Paraguay",
+   "Total Cases": "806,256",
+   "Total Deaths": "19,820",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "2,657,506",
+   "Population": "7,305,843"
+ },
+ {
+   "Serial Number": 79,
+   "Country": "Bahrain",
+   "Total Cases": "700,452",
+   "Total Deaths": "1,543",
+   "Total Recovered": "698,400",
+   "Active Cases": "509",
+   "Total Test": "10,682,444",
+   "Population": "1,783,983"
+ },
+ {
+   "Serial Number": 80,
+   "Country": "Sri Lanka",
+   "Total Cases": "671,989",
+   "Total Deaths": "16,828",
+   "Total Recovered": "655,158",
+   "Active Cases": "3",
+   "Total Test": "6,486,117",
+   "Population": "21,575,842"
+ },
+ {
+   "Serial Number": 81,
+   "Country": "Kuwait",
+   "Total Cases": "662,858",
+   "Total Deaths": "2,570",
+   "Total Recovered": "660,237",
+   "Active Cases": "51",
+   "Total Test": "8,455,743",
+   "Population": "4,380,326"
+ },
+ {
+   "Serial Number": 82,
+   "Country": "Dominican Republic",
+   "Total Cases": "660,095",
+   "Total Deaths": "4,384",
+   "Total Recovered": "644,785",
+   "Active Cases": "10,926",
+   "Total Test": "3,740,928",
+   "Population": "11,056,370"
+ },
+ {
+   "Serial Number": 83,
+   "Country": "Cyprus",
+   "Total Cases": "642,663",
+   "Total Deaths": "1,287",
+   "Total Recovered": "633,422",
+   "Active Cases": "7,954",
+   "Total Test": "9,640,118",
+   "Population": "1,223,387"
+ },
+ {
+   "Serial Number": 84,
+   "Country": "Myanmar",
+   "Total Cases": "633,820",
+   "Total Deaths": "19,490",
+   "Total Recovered": "614,299",
+   "Active Cases": "31",
+   "Total Test": "9,941,945",
+   "Population": "55,227,143"
+ },
+ {
+   "Serial Number": 85,
+   "Country": "Palestine",
+   "Total Cases": "621,008",
+   "Total Deaths": "5,404",
+   "Total Recovered": "615,445",
+   "Active Cases": "159",
+   "Total Test": "3,078,533",
+   "Population": "5,345,541"
+ },
+ {
+   "Serial Number": 86,
+   "Country": "Estonia",
+   "Total Cases": "613,891",
+   "Total Deaths": "2,912",
+   "Total Recovered": "524,990",
+   "Active Cases": "85,989",
+   "Total Test": "3,659,157",
+   "Population": "1,321,910"
+ },
+ {
+   "Serial Number": 87,
+   "Country": "Moldova",
+   "Total Cases": "598,673",
+   "Total Deaths": "11,953",
+   "Total Recovered": "504,142",
+   "Active Cases": "82,578",
+   "Total Test": "3,216,305",
+   "Population": "4,013,171"
+ },
+ {
+   "Serial Number": 88,
+   "Country": "Venezuela",
+   "Total Cases": "551,587",
+   "Total Deaths": "5,845",
+   "Total Recovered": "545,003",
+   "Active Cases": "739",
+   "Total Test": "3,359,014",
+   "Population": "29,266,991"
+ },
+ {
+   "Serial Number": 89,
+   "Country": "Egypt",
+   "Total Cases": "515,645",
+   "Total Deaths": "24,613",
+   "Total Recovered": "442,182",
+   "Active Cases": "48,850",
+   "Total Test": "3,693,367",
+   "Population": "106,156,692"
+ },
+ {
+   "Serial Number": 90,
+   "Country": "Libya",
+   "Total Cases": "507,162",
+   "Total Deaths": "6,437",
+   "Total Recovered": "500,721",
+   "Active Cases": "4",
+   "Total Test": "2,483,446",
+   "Population": "7,040,745"
+ },
+ {
+   "Serial Number": 91,
+   "Country": "China",
+   "Total Cases": "503,302",
+   "Total Deaths": "5,272",
+   "Total Recovered": "379,053",
+   "Active Cases": "118,977",
+   "Total Test": "160,000,000",
+   "Population": ""
+ },
+ {
+   "Serial Number": 92,
+   "Country": "Ethiopia",
+   "Total Cases": "499,531",
+   "Total Deaths": "7,572",
+   "Total Recovered": "486,531",
+   "Active Cases": "5,428",
+   "Total Test": "5,459,809",
+   "Population": "120,812,698"
+ },
+ {
+   "Serial Number": 93,
+   "Country": "Qatar",
+   "Total Cases": "492,534",
+   "Total Deaths": "686",
+   "Total Recovered": "491,585",
+   "Active Cases": "263",
+   "Total Test": "4,065,369",
+   "Population": "2,979,915"
+ },
+ {
+   "Serial Number": 94,
+   "Country": "Réunion",
+   "Total Cases": "485,895",
+   "Total Deaths": "919",
+   "Total Recovered": "418,572",
+   "Active Cases": "66,404",
+   "Total Test": "1,603,660",
+   "Population": "908,061"
+ },
+ {
+   "Serial Number": 95,
+   "Country": "Honduras",
+   "Total Cases": "470,757",
+   "Total Deaths": "11,104",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "1,619,676",
+   "Population": "10,221,247"
+ },
+ {
+   "Serial Number": 96,
+   "Country": "Armenia",
+   "Total Cases": "446,008",
+   "Total Deaths": "8,717",
+   "Total Recovered": "435,162",
+   "Active Cases": "2,129",
+   "Total Test": "3,242,901",
+   "Population": "2,971,966"
+ },
+ {
+   "Serial Number": 97,
+   "Country": "Bosnia and Herzegovina",
+   "Total Cases": "401,384",
+   "Total Deaths": "16,255",
+   "Total Recovered": "379,084",
+   "Active Cases": "6,045",
+   "Total Test": "1,884,721",
+   "Population": "3,249,317"
+ },
+ {
+   "Serial Number": 98,
+   "Country": "Oman",
+   "Total Cases": "399,449",
+   "Total Deaths": "4,628",
+   "Total Recovered": "384,669",
+   "Active Cases": "10,152",
+   "Total Test": "25,000,000",
+   "Population": "5,323,993"
+ },
+ {
+   "Serial Number": 99,
+   "Country": "North Macedonia",
+   "Total Cases": "346,428",
+   "Total Deaths": "9,638",
+   "Total Recovered": "336,623",
+   "Active Cases": "167",
+   "Total Test": "2,216,193",
+   "Population": "2,081,304"
+ },
+ {
+   "Serial Number": 100,
+   "Country": "Kenya",
+   "Total Cases": "342,810",
+   "Total Deaths": "5,688",
+   "Total Recovered": "337,040",
+   "Active Cases": "82",
+   "Total Test": "3,967,062",
+   "Population": "56,215,221"
+ },
+ {
+   "Serial Number": 101,
+   "Country": "Zambia",
+   "Total Cases": "340,763",
+   "Total Deaths": "4,047",
+   "Total Recovered": "335,104",
+   "Active Cases": "1,612",
+   "Total Test": "3,865,993",
+   "Population": "19,470,234"
+ },
+ {
+   "Serial Number": 102,
+   "Country": "Albania",
+   "Total Cases": "334,167",
+   "Total Deaths": "3,595",
+   "Total Recovered": "328,951",
+   "Active Cases": "1,621",
+   "Total Test": "1,941,032",
+   "Population": "2,866,374"
+ },
+ {
+   "Serial Number": 103,
+   "Country": "Botswana",
+   "Total Cases": "329,227",
+   "Total Deaths": "2,800",
+   "Total Recovered": "325,934",
+   "Active Cases": "493",
+   "Total Test": "2,026,898",
+   "Population": "2,441,162"
+ },
+ {
+   "Serial Number": 104,
+   "Country": "Luxembourg",
+   "Total Cases": "297,757",
+   "Total Deaths": "1,133",
+   "Total Recovered": "288,991",
+   "Active Cases": "7,633",
+   "Total Test": "4,412,567",
+   "Population": "642,371"
+ },
+ {
+   "Serial Number": 105,
+   "Country": "Montenegro",
+   "Total Cases": "286,355",
+   "Total Deaths": "2,797",
+   "Total Recovered": "283,210",
+   "Active Cases": "348",
+   "Total Test": "2,697,814",
+   "Population": "627,950"
+ },
+ {
+   "Serial Number": 106,
+   "Country": "Brunei",
+   "Total Cases": "275,220",
+   "Total Deaths": "225",
+   "Total Recovered": "243,601",
+   "Active Cases": "31,394",
+   "Total Test": "717,784",
+   "Population": "445,431"
+ },
+ {
+   "Serial Number": 107,
+   "Country": "Algeria",
+   "Total Cases": "271,378",
+   "Total Deaths": "6,881",
+   "Total Recovered": "182,749",
+   "Active Cases": "81,748",
+   "Total Test": "230,861",
+   "Population": "45,350,148"
+ },
+ {
+   "Serial Number": 108,
+   "Country": "Nigeria",
+   "Total Cases": "266,463",
+   "Total Deaths": "3,155",
+   "Total Recovered": "259,850",
+   "Active Cases": "3,458",
+   "Total Test": "5,708,974",
+   "Population": "216,746,934"
+ },
+ {
+   "Serial Number": 109,
+   "Country": "Zimbabwe",
+   "Total Cases": "261,606",
+   "Total Deaths": "5,652",
+   "Total Recovered": "254,951",
+   "Active Cases": "1,003",
+   "Total Test": "2,525,756",
+   "Population": "15,331,428"
+ },
+ {
+   "Serial Number": 110,
+   "Country": "Uzbekistan",
+   "Total Cases": "250,567",
+   "Total Deaths": "1,637",
+   "Total Recovered": "241,486",
+   "Active Cases": "7,444",
+   "Total Test": "1,377,915",
+   "Population": "34,382,084"
+ },
+ {
+   "Serial Number": 111,
+   "Country": "Mozambique",
+   "Total Cases": "231,994",
+   "Total Deaths": "2,233",
+   "Total Recovered": "228,805",
+   "Active Cases": "956",
+   "Total Test": "1,371,127",
+   "Population": "33,089,461"
+ },
+ {
+   "Serial Number": 112,
+   "Country": "Martinique",
+   "Total Cases": "229,687",
+   "Total Deaths": "1,097",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "828,928",
+   "Population": "374,087"
+ },
+ {
+   "Serial Number": 113,
+   "Country": "Laos",
+   "Total Cases": "217,973",
+   "Total Deaths": "758",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "1,233,207",
+   "Population": "7,481,023"
+ },
+ {
+   "Serial Number": 114,
+   "Country": "Iceland",
+   "Total Cases": "208,688",
+   "Total Deaths": "229",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "1,996,384",
+   "Population": "345,393"
+ },
+ {
+   "Serial Number": 115,
+   "Country": "Afghanistan",
+   "Total Cases": "208,545",
+   "Total Deaths": "7,882",
+   "Total Recovered": "186,088",
+   "Active Cases": "14,575",
+   "Total Test": "1,188,898",
+   "Population": "40,754,388"
+ },
+ {
+   "Serial Number": 116,
+   "Country": "Kyrgyzstan",
+   "Total Cases": "206,592",
+   "Total Deaths": "2,991",
+   "Total Recovered": "196,406",
+   "Active Cases": "7,195",
+   "Total Test": "1,907,195",
+   "Population": "6,728,271"
+ },
+ {
+   "Serial Number": 117,
+   "Country": "El Salvador",
+   "Total Cases": "201,785",
+   "Total Deaths": "4,230",
+   "Total Recovered": "179,410",
+   "Active Cases": "18,145",
+   "Total Test": "2,610,114",
+   "Population": "6,550,389"
+ },
+ {
+   "Serial Number": 118,
+   "Country": "Guadeloupe",
+   "Total Cases": "201,394",
+   "Total Deaths": "1,007",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "938,039",
+   "Population": "399,794"
+ },
+ {
+   "Serial Number": 119,
+   "Country": "Trinidad and Tobago",
+   "Total Cases": "187,908",
+   "Total Deaths": "4,326",
+   "Total Recovered": "183,264",
+   "Active Cases": "318",
+   "Total Test": "888,936",
+   "Population": "1,406,585"
+ },
+ {
+   "Serial Number": 120,
+   "Country": "Maldives",
+   "Total Cases": "185,715",
+   "Total Deaths": "311",
+   "Total Recovered": "163,687",
+   "Active Cases": "21,717",
+   "Total Test": "2,213,831",
+   "Population": "540,985"
+ },
+ {
+   "Serial Number": 121,
+   "Country": "Ghana",
+   "Total Cases": "171,112",
+   "Total Deaths": "1,462",
+   "Total Recovered": "169,636",
+   "Active Cases": "14",
+   "Total Test": "2,527,319",
+   "Population": "32,395,450"
+ },
+ {
+   "Serial Number": 122,
+   "Country": "Namibia",
+   "Total Cases": "170,741",
+   "Total Deaths": "4,088",
+   "Total Recovered": "166,452",
+   "Active Cases": "201",
+   "Total Test": "1,062,663",
+   "Population": "2,633,874"
+ },
+ {
+   "Serial Number": 123,
+   "Country": "Uganda",
+   "Total Cases": "170,400",
+   "Total Deaths": "3,630",
+   "Total Recovered": "100,431",
+   "Active Cases": "66,339",
+   "Total Test": "3,012,408",
+   "Population": "48,432,863"
+ },
+ {
+   "Serial Number": 124,
+   "Country": "Jamaica",
+   "Total Cases": "153,407",
+   "Total Deaths": "3,480",
+   "Total Recovered": "102,212",
+   "Active Cases": "47,715",
+   "Total Test": "1,183,986",
+   "Population": "2,985,094"
+ },
+ {
+   "Serial Number": 125,
+   "Country": "Cambodia",
+   "Total Cases": "138,693",
+   "Total Deaths": "3,056",
+   "Total Recovered": "135,624",
+   "Active Cases": "13",
+   "Total Test": "3,091,420",
+   "Population": "17,168,639"
+ },
+ {
+   "Serial Number": 126,
+   "Country": "Rwanda",
+   "Total Cases": "133,090",
+   "Total Deaths": "1,468",
+   "Total Recovered": "131,559",
+   "Active Cases": "63",
+   "Total Test": "5,959,042",
+   "Population": "13,600,464"
+ },
+ {
+   "Serial Number": 127,
+   "Country": "Cameroon",
+   "Total Cases": "123,993",
+   "Total Deaths": "1,965",
+   "Total Recovered": "118,616",
+   "Active Cases": "3,412",
+   "Total Test": "1,751,774",
+   "Population": "27,911,548"
+ },
+ {
+   "Serial Number": 128,
+   "Country": "Malta",
+   "Total Cases": "117,062",
+   "Total Deaths": "824",
+   "Total Recovered": "115,623",
+   "Active Cases": "615",
+   "Total Test": "2,109,235",
+   "Population": "444,033"
+ },
+ {
+   "Serial Number": 129,
+   "Country": "Barbados",
+   "Total Cases": "106,157",
+   "Total Deaths": "571",
+   "Total Recovered": "105,570",
+   "Active Cases": "16",
+   "Total Test": "790,354",
+   "Population": "288,023"
+ },
+ {
+   "Serial Number": 130,
+   "Country": "Angola",
+   "Total Cases": "105,184",
+   "Total Deaths": "1,931",
+   "Total Recovered": "103,216",
+   "Active Cases": "37",
+   "Total Test": "1,499,795",
+   "Population": "35,027,343"
+ },
+ {
+   "Serial Number": 131,
+   "Country": "Channel Islands",
+   "Total Cases": "101,116",
+   "Total Deaths": "223",
+   "Total Recovered": "100,778",
+   "Active Cases": "115",
+   "Total Test": "1,252,808",
+   "Population": "176,463"
+ },
+ {
+   "Serial Number": 132,
+   "Country": "French Guiana",
+   "Total Cases": "98,028",
+   "Total Deaths": "420",
+   "Total Recovered": "11,254",
+   "Active Cases": "86,354",
+   "Total Test": "651,257",
+   "Population": "314,169"
+ },
+ {
+   "Serial Number": 133,
+   "Country": "DRC",
+   "Total Cases": "95,514",
+   "Total Deaths": "1,463",
+   "Total Recovered": "84,264",
+   "Active Cases": "9,787",
+   "Total Test": "846,704",
+   "Population": "95,240,792"
+ },
+ {
+   "Serial Number": 134,
+   "Country": "Senegal",
+   "Total Cases": "88,902",
+   "Total Deaths": "1,971",
+   "Total Recovered": "86,929",
+   "Active Cases": "2",
+   "Total Test": "1,146,543",
+   "Population": "17,653,671"
+ },
+ {
+   "Serial Number": 135,
+   "Country": "Malawi",
+   "Total Cases": "88,559",
+   "Total Deaths": "2,686",
+   "Total Recovered": "85,369",
+   "Active Cases": "504",
+   "Total Test": "624,784",
+   "Population": "20,180,839"
+ },
+ {
+   "Serial Number": 136,
+   "Country": "Ivory Coast",
+   "Total Cases": "87,982",
+   "Total Deaths": "833",
+   "Total Recovered": "87,138",
+   "Active Cases": "11",
+   "Total Test": "1,671,684",
+   "Population": "27,742,298"
+ },
+ {
+   "Serial Number": 137,
+   "Country": "Suriname",
+   "Total Cases": "82,020",
+   "Total Deaths": "1,398",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "239,603",
+   "Population": "596,831"
+ },
+ {
+   "Serial Number": 138,
+   "Country": "New Caledonia",
+   "Total Cases": "79,845",
+   "Total Deaths": "314",
+   "Total Recovered": "79,526",
+   "Active Cases": "5",
+   "Total Test": "98,964",
+   "Population": "290,915"
+ },
+ {
+   "Serial Number": 139,
+   "Country": "French Polynesia",
+   "Total Cases": "77,957",
+   "Total Deaths": "649",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "",
+   "Population": "284,164"
+ },
+ {
+   "Serial Number": 140,
+   "Country": "Eswatini",
+   "Total Cases": "74,133",
+   "Total Deaths": "1,422",
+   "Total Recovered": "72,676",
+   "Active Cases": "35",
+   "Total Test": "1,048,704",
+   "Population": "1,184,817"
+ },
+ {
+   "Serial Number": 141,
+   "Country": "Guyana",
+   "Total Cases": "72,950",
+   "Total Deaths": "1,294",
+   "Total Recovered": "71,357",
+   "Active Cases": "299",
+   "Total Test": "717,867",
+   "Population": "794,045"
+ },
+ {
+   "Serial Number": 142,
+   "Country": "Belize",
+   "Total Cases": "70,660",
+   "Total Deaths": "688",
+   "Total Recovered": "69,949",
+   "Active Cases": "23",
+   "Total Test": "576,016",
+   "Population": "412,190"
+ },
+ {
+   "Serial Number": 143,
+   "Country": "Fiji",
+   "Total Cases": "68,820",
+   "Total Deaths": "883",
+   "Total Recovered": "66,780",
+   "Active Cases": "1,157",
+   "Total Test": "667,715",
+   "Population": "909,466"
+ },
+ {
+   "Serial Number": 144,
+   "Country": "Madagascar",
+   "Total Cases": "67,827",
+   "Total Deaths": "1,419",
+   "Total Recovered": "66,370",
+   "Active Cases": "38",
+   "Total Test": "524,209",
+   "Population": "29,178,077"
+ },
+ {
+   "Serial Number": 145,
+   "Country": "Sudan",
+   "Total Cases": "63,742",
+   "Total Deaths": "5,001",
+   "Total Recovered": "58,284",
+   "Active Cases": "457",
+   "Total Test": "562,941",
+   "Population": "45,992,020"
+ },
+ {
+   "Serial Number": 146,
+   "Country": "Mauritania",
+   "Total Cases": "63,665",
+   "Total Deaths": "997",
+   "Total Recovered": "62,437",
+   "Active Cases": "231",
+   "Total Test": "1,009,957",
+   "Population": "4,901,981"
+ },
+ {
+   "Serial Number": 147,
+   "Country": "Cabo Verde",
+   "Total Cases": "63,229",
+   "Total Deaths": "413",
+   "Total Recovered": "62,756",
+   "Active Cases": "60",
+   "Total Test": "401,622",
+   "Population": "567,678"
+ },
+ {
+   "Serial Number": 148,
+   "Country": "Bhutan",
+   "Total Cases": "62,605",
+   "Total Deaths": "21",
+   "Total Recovered": "61,564",
+   "Active Cases": "1,020",
+   "Total Test": "2,303,734",
+   "Population": "787,941"
+ },
+ {
+   "Serial Number": 149,
+   "Country": "Syria",
+   "Total Cases": "57,453",
+   "Total Deaths": "3,164",
+   "Total Recovered": "54,289",
+   "Active Cases": "0",
+   "Total Test": "146,269",
+   "Population": "19,364,809"
+ },
+ {
+   "Serial Number": 150,
+   "Country": "Burundi",
+   "Total Cases": "53,492",
+   "Total Deaths": "38",
+   "Total Recovered": "53,394",
+   "Active Cases": "60",
+   "Total Test": "345,742",
+   "Population": "12,624,840"
+ },
+ {
+   "Serial Number": 151,
+   "Country": "Seychelles",
+   "Total Cases": "50,665",
+   "Total Deaths": "172",
+   "Total Recovered": "50,440",
+   "Active Cases": "53",
+   "Total Test": "",
+   "Population": "99,426"
+ },
+ {
+   "Serial Number": 152,
+   "Country": "Gabon",
+   "Total Cases": "48,981",
+   "Total Deaths": "306",
+   "Total Recovered": "48,674",
+   "Active Cases": "1",
+   "Total Test": "1,621,909",
+   "Population": "2,331,533"
+ },
+ {
+   "Serial Number": 153,
+   "Country": "Andorra",
+   "Total Cases": "47,839",
+   "Total Deaths": "165",
+   "Total Recovered": "47,563",
+   "Active Cases": "111",
+   "Total Test": "249,838",
+   "Population": "77,463"
+ },
+ {
+   "Serial Number": 154,
+   "Country": "Papua New Guinea",
+   "Total Cases": "46,750",
+   "Total Deaths": "670",
+   "Total Recovered": "43,982",
+   "Active Cases": "2,098",
+   "Total Test": "249,149",
+   "Population": "9,292,169"
+ },
+ {
+   "Serial Number": 155,
+   "Country": "Curaçao",
+   "Total Cases": "45,986",
+   "Total Deaths": "295",
+   "Total Recovered": "44,720",
+   "Active Cases": "971",
+   "Total Test": "496,693",
+   "Population": "165,529"
+ },
+ {
+   "Serial Number": 156,
+   "Country": "Aruba",
+   "Total Cases": "43,993",
+   "Total Deaths": "236",
+   "Total Recovered": "42,438",
+   "Active Cases": "1,319",
+   "Total Test": "177,885",
+   "Population": "107,609"
+ },
+ {
+   "Serial Number": 157,
+   "Country": "Tanzania",
+   "Total Cases": "42,664",
+   "Total Deaths": "846",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "",
+   "Population": "63,298,550"
+ },
+ {
+   "Serial Number": 158,
+   "Country": "Mayotte",
+   "Total Cases": "42,002",
+   "Total Deaths": "188",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "176,919",
+   "Population": "286,259"
+ },
+ {
+   "Serial Number": 159,
+   "Country": "Mauritius",
+   "Total Cases": "41,652",
+   "Total Deaths": "1,043",
+   "Total Recovered": "39,943",
+   "Active Cases": "666",
+   "Total Test": "358,675",
+   "Population": "1,274,727"
+ },
+ {
+   "Serial Number": 160,
+   "Country": "Togo",
+   "Total Cases": "39,354",
+   "Total Deaths": "290",
+   "Total Recovered": "39,061",
+   "Active Cases": "3",
+   "Total Test": "806,803",
+   "Population": "8,680,837"
+ },
+ {
+   "Serial Number": 161,
+   "Country": "Guinea",
+   "Total Cases": "38,240",
+   "Total Deaths": "467",
+   "Total Recovered": "37,757",
+   "Active Cases": "16",
+   "Total Test": "660,107",
+   "Population": "13,865,691"
+ },
+ {
+   "Serial Number": 162,
+   "Country": "Isle of Man",
+   "Total Cases": "38,008",
+   "Total Deaths": "116",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "150,753",
+   "Population": "85,732"
+ },
+ {
+   "Serial Number": 163,
+   "Country": "Bahamas",
+   "Total Cases": "37,491",
+   "Total Deaths": "833",
+   "Total Recovered": "36,366",
+   "Active Cases": "292",
+   "Total Test": "257,839",
+   "Population": "400,516"
+ },
+ {
+   "Serial Number": 164,
+   "Country": "Lesotho",
+   "Total Cases": "34,790",
+   "Total Deaths": "723",
+   "Total Recovered": "25,980",
+   "Active Cases": "8,087",
+   "Total Test": "431,221",
+   "Population": "2,175,699"
+ },
+ {
+   "Serial Number": 165,
+   "Country": "Faeroe Islands",
+   "Total Cases": "34,658",
+   "Total Deaths": "28",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "778,000",
+   "Population": "49,233"
+ },
+ {
+   "Serial Number": 166,
+   "Country": "Haiti",
+   "Total Cases": "34,076",
+   "Total Deaths": "860",
+   "Total Recovered": "33,033",
+   "Active Cases": "183",
+   "Total Test": "132,422",
+   "Population": "11,680,283"
+ },
+ {
+   "Serial Number": 167,
+   "Country": "Mali",
+   "Total Cases": "32,783",
+   "Total Deaths": "743",
+   "Total Recovered": "31,957",
+   "Active Cases": "83",
+   "Total Test": "789,342",
+   "Population": "21,473,764"
+ },
+ {
+   "Serial Number": 168,
+   "Country": "Cayman Islands",
+   "Total Cases": "31,472",
+   "Total Deaths": "37",
+   "Total Recovered": "8,553",
+   "Active Cases": "22,882",
+   "Total Test": "222,773",
+   "Population": "67,277"
+ },
+ {
+   "Serial Number": 169,
+   "Country": "Saint Lucia",
+   "Total Cases": "29,803",
+   "Total Deaths": "409",
+   "Total Recovered": "29,095",
+   "Active Cases": "299",
+   "Total Test": "210,983",
+   "Population": "185,113"
+ },
+ {
+   "Serial Number": 170,
+   "Country": "Benin",
+   "Total Cases": "27,989",
+   "Total Deaths": "163",
+   "Total Recovered": "27,823",
+   "Active Cases": "3",
+   "Total Test": "604,310",
+   "Population": "12,784,726"
+ },
+ {
+   "Serial Number": 171,
+   "Country": "Somalia",
+   "Total Cases": "27,318",
+   "Total Deaths": "1,361",
+   "Total Recovered": "13,182",
+   "Active Cases": "12,775",
+   "Total Test": "400,466",
+   "Population": "16,841,795"
+ },
+ {
+   "Serial Number": 172,
+   "Country": "Congo",
+   "Total Cases": "25,375",
+   "Total Deaths": "386",
+   "Total Recovered": "24,006",
+   "Active Cases": "983",
+   "Total Test": "347,815",
+   "Population": "5,797,805"
+ },
+ {
+   "Serial Number": 173,
+   "Country": "Solomon Islands",
+   "Total Cases": "24,575",
+   "Total Deaths": "153",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "",
+   "Population": "721,159"
+ },
+ {
+   "Serial Number": 174,
+   "Country": "San Marino",
+   "Total Cases": "23,427",
+   "Total Deaths": "122",
+   "Total Recovered": "23,276",
+   "Active Cases": "29",
+   "Total Test": "157,634",
+   "Population": "34,085"
+ },
+ {
+   "Serial Number": 175,
+   "Country": "Timor-Leste",
+   "Total Cases": "23,415",
+   "Total Deaths": "138",
+   "Total Recovered": "23,102",
+   "Active Cases": "175",
+   "Total Test": "278,529",
+   "Population": "1,369,429"
+ },
+ {
+   "Serial Number": 176,
+   "Country": "Micronesia",
+   "Total Cases": "22,676",
+   "Total Deaths": "58",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "54,967",
+   "Population": "117,489"
+ },
+ {
+   "Serial Number": 177,
+   "Country": "Burkina Faso",
+   "Total Cases": "22,025",
+   "Total Deaths": "396",
+   "Total Recovered": "21,596",
+   "Active Cases": "33",
+   "Total Test": "248,995",
+   "Population": "22,102,838"
+ },
+ {
+   "Serial Number": 178,
+   "Country": "Liechtenstein",
+   "Total Cases": "21,340",
+   "Total Deaths": "89",
+   "Total Recovered": "21,237",
+   "Active Cases": "14",
+   "Total Test": "112,457",
+   "Population": "38,387"
+ },
+ {
+   "Serial Number": 179,
+   "Country": "Gibraltar",
+   "Total Cases": "20,399",
+   "Total Deaths": "111",
+   "Total Recovered": "16,579",
+   "Active Cases": "3,709",
+   "Total Test": "534,283",
+   "Population": "33,704"
+ },
+ {
+   "Serial Number": 180,
+   "Country": "Grenada",
+   "Total Cases": "19,680",
+   "Total Deaths": "238",
+   "Total Recovered": "19,358",
+   "Active Cases": "84",
+   "Total Test": "182,981",
+   "Population": "113,475"
+ },
+ {
+   "Serial Number": 181,
+   "Country": "Bermuda",
+   "Total Cases": "18,766",
+   "Total Deaths": "157",
+   "Total Recovered": "18,593",
+   "Active Cases": "16",
+   "Total Test": "1,024,947",
+   "Population": "61,939"
+ },
+ {
+   "Serial Number": 182,
+   "Country": "Nicaragua",
+   "Total Cases": "18,491",
+   "Total Deaths": "225",
+   "Total Recovered": "4,225",
+   "Active Cases": "14,041",
+   "Total Test": "",
+   "Population": "6,779,100"
+ },
+ {
+   "Serial Number": 183,
+   "Country": "South Sudan",
+   "Total Cases": "18,368",
+   "Total Deaths": "138",
+   "Total Recovered": "18,115",
+   "Active Cases": "115",
+   "Total Test": "410,280",
+   "Population": "11,618,511"
+ },
+ {
+   "Serial Number": 184,
+   "Country": "Tajikistan",
+   "Total Cases": "17,786",
+   "Total Deaths": "125",
+   "Total Recovered": "17,264",
+   "Active Cases": "397",
+   "Total Test": "",
+   "Population": "9,957,464"
+ },
+ {
+   "Serial Number": 185,
+   "Country": "Equatorial Guinea",
+   "Total Cases": "17,190",
+   "Total Deaths": "183",
+   "Total Recovered": "16,883",
+   "Active Cases": "124",
+   "Total Test": "365,697",
+   "Population": "1,496,662"
+ },
+ {
+   "Serial Number": 186,
+   "Country": "Tonga",
+   "Total Cases": "16,734",
+   "Total Deaths": "13",
+   "Total Recovered": "15,638",
+   "Active Cases": "1,083",
+   "Total Test": "535,009",
+   "Population": "107,749"
+ },
+ {
+   "Serial Number": 187,
+   "Country": "Samoa",
+   "Total Cases": "16,087",
+   "Total Deaths": "29",
+   "Total Recovered": "1,605",
+   "Active Cases": "14,453",
+   "Total Test": "187,397",
+   "Population": "202,239"
+ },
+ {
+   "Serial Number": 188,
+   "Country": "Monaco",
+   "Total Cases": "16,056",
+   "Total Deaths": "65",
+   "Total Recovered": "15,982",
+   "Active Cases": "9",
+   "Total Test": "78,646",
+   "Population": "39,783"
+ },
+ {
+   "Serial Number": 189,
+   "Country": "Dominica",
+   "Total Cases": "15,760",
+   "Total Deaths": "74",
+   "Total Recovered": "15,673",
+   "Active Cases": "13",
+   "Total Test": "229,344",
+   "Population": "72,344"
+ },
+ {
+   "Serial Number": 190,
+   "Country": "Djibouti",
+   "Total Cases": "15,690",
+   "Total Deaths": "189",
+   "Total Recovered": "15,427",
+   "Active Cases": "74",
+   "Total Test": "305,941",
+   "Population": "1,016,097"
+ },
+ {
+   "Serial Number": 191,
+   "Country": "Marshall Islands",
+   "Total Cases": "15,584",
+   "Total Deaths": "17",
+   "Total Recovered": "15,528",
+   "Active Cases": "39",
+   "Total Test": "",
+   "Population": "60,057"
+ },
+ {
+   "Serial Number": 192,
+   "Country": "CAR",
+   "Total Cases": "15,368",
+   "Total Deaths": "113",
+   "Total Recovered": "15,200",
+   "Active Cases": "55",
+   "Total Test": "81,294",
+   "Population": "5,016,678"
+ },
+ {
+   "Serial Number": 193,
+   "Country": "Gambia",
+   "Total Cases": "12,586",
+   "Total Deaths": "372",
+   "Total Recovered": "12,189",
+   "Active Cases": "25",
+   "Total Test": "155,686",
+   "Population": "2,558,482"
+ },
+ {
+   "Serial Number": 194,
+   "Country": "Saint Martin",
+   "Total Cases": "12,233",
+   "Total Deaths": "63",
+   "Total Recovered": "1,399",
+   "Active Cases": "10,771",
+   "Total Test": "112,382",
+   "Population": "39,730"
+ },
+ {
+   "Serial Number": 195,
+   "Country": "Vanuatu",
+   "Total Cases": "12,014",
+   "Total Deaths": "14",
+   "Total Recovered": "11,976",
+   "Active Cases": "24",
+   "Total Test": "24,976",
+   "Population": "321,832"
+ },
+ {
+   "Serial Number": 196,
+   "Country": "Greenland",
+   "Total Cases": "11,971",
+   "Total Deaths": "21",
+   "Total Recovered": "2,761",
+   "Active Cases": "9,189",
+   "Total Test": "164,926",
+   "Population": "56,973"
+ },
+ {
+   "Serial Number": 197,
+   "Country": "Yemen",
+   "Total Cases": "11,945",
+   "Total Deaths": "2,159",
+   "Total Recovered": "9,124",
+   "Active Cases": "662",
+   "Total Test": "329,592",
+   "Population": "31,154,867"
+ },
+ {
+   "Serial Number": 198,
+   "Country": "Caribbean Netherlands",
+   "Total Cases": "11,661",
+   "Total Deaths": "38",
+   "Total Recovered": "10,476",
+   "Active Cases": "1,147",
+   "Total Test": "30,126",
+   "Population": "26,647"
+ },
+ {
+   "Serial Number": 199,
+   "Country": "Sint Maarten",
+   "Total Cases": "11,010",
+   "Total Deaths": "89",
+   "Total Recovered": "10,905",
+   "Active Cases": "16",
+   "Total Test": "62,056",
+   "Population": "43,966"
+ },
+ {
+   "Serial Number": 200,
+   "Country": "Eritrea",
+   "Total Cases": "10,189",
+   "Total Deaths": "103",
+   "Total Recovered": "10,086",
+   "Active Cases": "0",
+   "Total Test": "23,693",
+   "Population": "3,662,244"
+ },
+ {
+   "Serial Number": 201,
+   "Country": "Niger",
+   "Total Cases": "9,931",
+   "Total Deaths": "312",
+   "Total Recovered": "8,890",
+   "Active Cases": "729",
+   "Total Test": "254,538",
+   "Population": "26,083,660"
+ },
+ {
+   "Serial Number": 202,
+   "Country": "St. Vincent Grenadines",
+   "Total Cases": "9,585",
+   "Total Deaths": "123",
+   "Total Recovered": "9,454",
+   "Active Cases": "8",
+   "Total Test": "113,504",
+   "Population": "111,551"
+ },
+ {
+   "Serial Number": 203,
+   "Country": "Antigua and Barbuda",
+   "Total Cases": "9,106",
+   "Total Deaths": "146",
+   "Total Recovered": "8,954",
+   "Active Cases": "6",
+   "Total Test": "18,901",
+   "Population": "99,509"
+ },
+ {
+   "Serial Number": 204,
+   "Country": "Comoros",
+   "Total Cases": "8,992",
+   "Total Deaths": "161",
+   "Total Recovered": "8,827",
+   "Active Cases": "4",
+   "Total Test": "",
+   "Population": "907,419"
+ },
+ {
+   "Serial Number": 205,
+   "Country": "Guinea-Bissau",
+   "Total Cases": "8,947",
+   "Total Deaths": "176",
+   "Total Recovered": "8,656",
+   "Active Cases": "115",
+   "Total Test": "145,231",
+   "Population": "2,063,367"
+ },
+ {
+   "Serial Number": 206,
+   "Country": "Liberia",
+   "Total Cases": "8,062",
+   "Total Deaths": "294",
+   "Total Recovered": "7,766",
+   "Active Cases": "2",
+   "Total Test": "139,824",
+   "Population": "5,305,117"
+ },
+ {
+   "Serial Number": 207,
+   "Country": "Sierra Leone",
+   "Total Cases": "7,760",
+   "Total Deaths": "126",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "259,958",
+   "Population": "8,306,436"
+ },
+ {
+   "Serial Number": 208,
+   "Country": "Chad",
+   "Total Cases": "7,652",
+   "Total Deaths": "194",
+   "Total Recovered": "4,874",
+   "Active Cases": "2,584",
+   "Total Test": "191,341",
+   "Population": "17,413,580"
+ },
+ {
+   "Serial Number": 209,
+   "Country": "British Virgin Islands",
+   "Total Cases": "7,305",
+   "Total Deaths": "64",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "107,339",
+   "Population": "30,596"
+ },
+ {
+   "Serial Number": 210,
+   "Country": "Cook Islands",
+   "Total Cases": "7,011",
+   "Total Deaths": "2",
+   "Total Recovered": "6,993",
+   "Active Cases": "16",
+   "Total Test": "19,690",
+   "Population": "17,571"
+ },
+ {
+   "Serial Number": 211,
+   "Country": "Saint Kitts and Nevis",
+   "Total Cases": "6,592",
+   "Total Deaths": "46",
+   "Total Recovered": "6,537",
+   "Active Cases": "9",
+   "Total Test": "126,903",
+   "Population": "53,871"
+ },
+ {
+   "Serial Number": 212,
+   "Country": "Turks and Caicos",
+   "Total Cases": "6,522",
+   "Total Deaths": "38",
+   "Total Recovered": "6,451",
+   "Active Cases": "33",
+   "Total Test": "611,527",
+   "Population": "39,741"
+ },
+ {
+   "Serial Number": 213,
+   "Country": "Sao Tome and Principe",
+   "Total Cases": "6,280",
+   "Total Deaths": "77",
+   "Total Recovered": "6,202",
+   "Active Cases": "1",
+   "Total Test": "29,036",
+   "Population": "227,679"
+ },
+ {
+   "Serial Number": 214,
+   "Country": "Palau",
+   "Total Cases": "5,986",
+   "Total Deaths": "9",
+   "Total Recovered": "5,976",
+   "Active Cases": "1",
+   "Total Test": "68,820",
+   "Population": "18,233"
+ },
+ {
+   "Serial Number": 215,
+   "Country": "St. Barth",
+   "Total Cases": "5,420",
+   "Total Deaths": "6",
+   "Total Recovered": "N/A",
+   "Active Cases": "N/A",
+   "Total Test": "78,646",
+   "Population": "9,945"
+ },
+ {
+   "Serial Number": 216,
+   "Country": "Kiribati",
+   "Total Cases": "5,008",
+   "Total Deaths": "18",
+   "Total Recovered": "2,703",
+   "Active Cases": "2,287",
+   "Total Test": "",
+   "Population": "123,419"
+ },
+ {
+   "Serial Number": 217,
+   "Country": "Nauru",
+   "Total Cases": "4,621",
+   "Total Deaths": "1",
+   "Total Recovered": "4,609",
+   "Active Cases": "11",
+   "Total Test": "20,509",
+   "Population": "10,903"
+ },
+ {
+   "Serial Number": 218,
+   "Country": "Anguilla",
+   "Total Cases": "3,904",
+   "Total Deaths": "12",
+   "Total Recovered": "3,879",
+   "Active Cases": "13",
+   "Total Test": "51,382",
+   "Population": "15,230"
+ },
+ {
+   "Serial Number": 219,
+   "Country": "Macao",
+   "Total Cases": "3,488",
+   "Total Deaths": "120",
+   "Total Recovered": "3,357",
+   "Active Cases": "11",
+   "Total Test": "7,850",
+   "Population": "667,490"
+ },
+ {
+   "Serial Number": 220,
+   "Country": "Saint Pierre Miquelon",
+   "Total Cases": "3,452",
+   "Total Deaths": "2",
+   "Total Recovered": "2,449",
+   "Active Cases": "1,001",
+   "Total Test": "25,400",
+   "Population": "5,759"
+ },
+ {
+   "Serial Number": 221,
+   "Country": "Wallis and Futuna",
+   "Total Cases": "3,427",
+   "Total Deaths": "7",
+   "Total Recovered": "438",
+   "Active Cases": "2,982",
+   "Total Test": "20,508",
+   "Population": "10,982"
+ },
+ {
+   "Serial Number": 222,
+   "Country": "Tuvalu",
+   "Total Cases": "2,805",
+   "Total Deaths": "",
+   "Total Recovered": "",
+   "Active Cases": "2,805",
+   "Total Test": "",
+   "Population": "12,066"
+ },
+ {
+   "Serial Number": 223,
+   "Country": "Saint Helena",
+   "Total Cases": "2,166",
+   "Total Deaths": "",
+   "Total Recovered": "2",
+   "Active Cases": "2,164",
+   "Total Test": "",
+   "Population": "6,115"
+ },
+ {
+   "Serial Number": 224,
+   "Country": "Falkland Islands",
+   "Total Cases": "1,930",
+   "Total Deaths": "",
+   "Total Recovered": "1,930",
+   "Active Cases": "0",
+   "Total Test": "8,632",
+   "Population": "3,539"
+ },
+ {
+   "Serial Number": 225,
+   "Country": "Montserrat",
+   "Total Cases": "1,403",
+   "Total Deaths": "8",
+   "Total Recovered": "1,376",
+   "Active Cases": "19",
+   "Total Test": "17,762",
+   "Population": "4,965"
+ },
+ {
+   "Serial Number": 226,
+   "Country": "Niue",
+   "Total Cases": "747",
+   "Total Deaths": "",
+   "Total Recovered": "746",
+   "Active Cases": "1",
+   "Total Test": "",
+   "Population": "1,622"
+ },
+ {
+   "Serial Number": 227,
+   "Country": "Diamond Princess",
+   "Total Cases": "712",
+   "Total Deaths": "13",
+   "Total Recovered": "699",
+   "Active Cases": "0",
+   "Total Test": "",
+   "Population": ""
+ },
+ {
+   "Serial Number": 228,
+   "Country": "Vatican City",
+   "Total Cases": "29",
+   "Total Deaths": "",
+   "Total Recovered": "29",
+   "Active Cases": "0",
+   "Total Test": "",
+   "Population": "799"
+ },
+ {
+   "Serial Number": 229,
+   "Country": "Western Sahara",
+   "Total Cases": "10",
+   "Total Deaths": "1",
+   "Total Recovered": "9",
+   "Active Cases": "0",
+   "Total Test": "",
+   "Population": "626,161"
+ },
+ {
+   "Serial Number": 230,
+   "Country": "MS Zaandam",
+   "Total Cases": "9",
+   "Total Deaths": "2",
+   "Total Recovered": "7",
+   "Active Cases": "0",
+   "Total Test": "",
+   "Population": ""
+ },
+ {
+   "Serial Number": 231,
+   "Country": "Tokelau",
+   "Total Cases": "5",
+   "Total Deaths": "",
+   "Total Recovered": "",
+   "Active Cases": "5",
+   "Total Test": "",
+   "Population": "1,378"
+ }
+]

@@ -28,9 +28,8 @@
 
         "mark": {
             "type": "geoshape",
-            "fill": "lightgrey",
             "stroke": "#757575",
-            "strokeWidth": 0.5
+            "strokeWidth": 0.75
           },
         "encoding": {
             "color": {
@@ -38,7 +37,7 @@
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
-                    "domain": [2,100, 200, 300],
+                    "domain": [1,100, 200, 300],
                     "range": ["#e6f5c9","#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                 }
             },

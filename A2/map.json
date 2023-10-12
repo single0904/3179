@@ -26,15 +26,19 @@
             "as": "New Cases per 1000 people"}
         ],
 
-        "mark": {"type": "geoshape"},
+        "mark": {
+            "type": "geoshape",
+            "stroke": "#757575",
+            "strokeWidth": 0.5
+          },
         "encoding": {
             "color": {
                 "field": "New Cases per 1000 people",
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
-                    "domain": [0, 100, 200, 300],
-                    "range": ["lightgrey","#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+                    "domain": [null,100, 200, 300],
+                    "range": ["#e6f5c9","#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                 }
             },
                 "tooltip": [

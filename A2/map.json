@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Malaysia Covid-19 Cases per 1000 people",
+    "width": 800,
+    "height": 400,
+    "projection": {"type": "equalEarth"},
+    "data": { 
+        "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_10m_admin_1_states_provinces.json",
+    "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+    },
+    "layer":[
+        {
+            "transform": [
+        {
+            "lookup": "properties.name",
+            "from": {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/covid_worldwide.csv"
+                },
+                "key": "state",
+                "fields": ["cases_new", "cases_recovered", "cases_active","per_1000"]
+            }
+        },
+        {
+            "calculate": "datum.cases_new/1000 ", 
+            "as": "New Cases per 1000 people"}
+        ],
+
+        "mark": {"type": "geoshape"},
+        "encoding": {
+            "color": {
+                "field": "New Cases per 1000 people",
+                "type": "quantitative",
+                "scale": {
+                    "type": "threshold",
+                    "domain": [100, 200, 300],
+                    "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+                }
+            },
+                "tooltip": [
+                    {"field": "properties.name", "type": "nominal", "title": "states"},
+                    {"field": "cases_new", "type": "quantitative"},
+                    {"field": "New Cases per 1000 people", "type": "quantitative", "title": "New Cases per 1000 people"}
+                ]
+            }
+        },
+        {
+            "data": {
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_110m_graticules_30.json",
+              "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+            },
+            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+          },
+          {
+            "data": {
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_110m_ocean.json",
+              "format": {"type": "topojson", "feature": "ne_110m_ocean"}
+            },
+            "mark": {"type": "geoshape", "fill": "skyblue"}
+          }
+    ]
+}
+    
+    

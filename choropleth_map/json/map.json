@@ -9,19 +9,8 @@
     },
     "params": [
         {
-          "name": "Year_selection",
-          "value": 2020,
-          "bind": {
-            "input": "range",
-            "min": 2020,
-            "max": 2022,
-            "step": 1,
-            "name": "Year:   "
-          }
-        },
-        {
             "name": "Month_selection",
-            "value": 1,
+            "value": 6,
             "bind": {
               "input": "range",
               "min": 1,
@@ -31,34 +20,19 @@
             }
         },
         {
-          "name": "zoom_level",
-          "value": 200,
-          "bind": {
-            "input": "range",
-            "min": 100,
-            "max": 650,
-            "step": 50,
-            "name": "Zoom: "
+            "name": "Year_selection",
+            "value": [30,0],
+            "bind": {
+              "input": "select",
+              "options": [
+                2020,
+                2021,
+                2022
+              ],
+              "labels": ["2020", "2021", "2022"],
+              "name": "Year: "
+            }
           }
-        },
-        {
-          "name": "center_to",
-          "value": [30,0],
-          "bind": {
-            "input": "select",
-            "options": [
-              [30,0],
-              [90,20],
-              [135,-25],
-              [35,55],
-              [-95,45],
-              [-60,-20],
-              [0,0]
-            ],
-            "labels": ["Africa", "Asia", "Australia", "Europe", "North America", "South America","World"],
-            "name": "Map Centre: "
-          }
-        }
     ],
     "projection": {"type": "equalEarth"},
     "layer":[
@@ -90,17 +64,15 @@
             "lookup": "properties.name",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/data/malaysia_cases(without_extra_states).csv"
+                    "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/data/cumulative_data.csv"
                 },
-                "key": "state",
-                "fields": ["cases_new", "cases_recovered", "cases_active","per_1000"]
+                "key": "State",
+                "fields": ["Cumulative New Cases"]
             }
         },
         {"filter": "datum.Year == Year_selection"},
-        {"filter": "datum.Month == Month_selection"},
-        {
-            "calculate": "datum.cases_new/datum.per_1000", 
-            "as": "New Cases per 1000 people"}
+        {"filter": "datum.Month == Month_selection"}
+
         ],
 
         "mark": {
@@ -110,7 +82,7 @@
           },
         "encoding": {
             "color": {
-                "field": "New Cases per 1000 people",
+                "field": "Cumulative New Cases",
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
@@ -120,7 +92,7 @@
             },
                 "tooltip": [
                     {"field": "properties.name", "type": "nominal", "title": "states"},
-                    {"field": "cases_new", "type": "quantitative"},
+                    {"field": "Cumulative New Cases", "type": "quantitative"},
                     {"field": "New Cases per 1000 people", "type": "quantitative", "title": "New Cases per 1000 people"}
                 ]
             }

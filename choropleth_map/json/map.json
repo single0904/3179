@@ -81,7 +81,7 @@
             "encoding": {
                 "shape": {"field": "geo", "type": "geojson"},
                 "color": {
-                    "field": "Cumulative New Cases",
+                    "field": "cases_capita",
                     "type": "quantitative",
                     "scale": {
                         "range": ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
@@ -89,7 +89,7 @@
                 },
                     "tooltip": [
                         {"field": "State", "type": "nominal", "title": "states"},
-                        {"field": "Cumulative New Cases", "type": "quantitative"}
+                        {"field": "cases_capita", "type": "quantitative"}
     
                     ]
                 }

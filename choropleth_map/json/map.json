@@ -70,6 +70,14 @@
                 "fields": ["Cumulative New Cases"]
             }
         },
+        {
+            "calculate": "year(datum.Time)",  
+            "as": "Year"
+        },
+        {
+            "calculate": "month(datum.Time)",  
+            "as": "Month"
+        },
         {"filter": "datum.Year == Year_selection"},
         {"filter": "datum.Month == Month_selection"}
 

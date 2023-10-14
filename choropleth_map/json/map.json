@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Malaysia Covid-19 Cases per 1000 people",
-    "width": 500,
+    "width": 600,
     "height": 300,
     "projection": {"type": "equalEarth"},
     "data": { 

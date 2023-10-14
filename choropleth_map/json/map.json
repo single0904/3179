@@ -3,11 +3,64 @@
     "title": "Malaysia Covid-19 Cases per 1000 people",
     "width": 600,
     "height": 300,
-    "projection": {"type": "equalEarth"},
     "data": { 
         "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_10m_admin_1_states_provinces.json",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
     },
+    "params": [
+        {
+          "name": "Year_selection",
+          "value": 2020,
+          "bind": {
+            "input": "range",
+            "min": 2020,
+            "max": 2022,
+            "step": 1,
+            "name": "Year:   "
+          }
+        },
+        {
+            "name": "Month_selection",
+            "value": 1,
+            "bind": {
+              "input": "range",
+              "min": 1,
+              "max": 12,
+              "step": 1,
+              "name": "Month:   "
+            }
+        },
+        {
+          "name": "zoom_level",
+          "value": 200,
+          "bind": {
+            "input": "range",
+            "min": 100,
+            "max": 650,
+            "step": 50,
+            "name": "Zoom: "
+          }
+        },
+        {
+          "name": "center_to",
+          "value": [30,0],
+          "bind": {
+            "input": "select",
+            "options": [
+              [30,0],
+              [90,20],
+              [135,-25],
+              [35,55],
+              [-95,45],
+              [-60,-20],
+              [0,0]
+            ],
+            "labels": ["Africa", "Asia", "Australia", "Europe", "North America", "South America","World"],
+            "name": "Map Centre: "
+          }
+        }
+    ],
+    "projection": {"type": "equalEarth"},
     "layer":[
         {
             "data": {
@@ -43,6 +96,8 @@
                 "fields": ["cases_new", "cases_recovered", "cases_active","per_1000"]
             }
         },
+        {"filter": "datum.Year == Year_selection"},
+        {"filter": "datum.Month == Month_selection"},
         {
             "calculate": "datum.cases_new/datum.per_1000", 
             "as": "New Cases per 1000 people"}

@@ -23,7 +23,14 @@
                 "field": "note"
               }
             }
-          },
+        },
+        {
+            "data": {
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_110m_ocean.json",
+              "format": {"type": "topojson", "feature": "ne_110m_ocean"}
+            },
+            "mark": {"type": "geoshape", "fill": "skyblue"}
+        },
         {
             "transform": [
         {
@@ -65,18 +72,11 @@
         },
         {
             "data": {
-              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_110m_graticules_30.json",
-              "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_110m_graticules_5.json",
+              "format": {"type": "topojson", "feature": "ne_110m_graticules_5"}
             },
-            "mark": {"type": "geoshape", "fill": null, "stroke": "black"}
-          },
-          {
-            "data": {
-              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_110m_ocean.json",
-              "format": {"type": "topojson", "feature": "ne_110m_ocean"}
-            },
-            "mark": {"type": "geoshape", "fill": "skyblue"}
-          }
+            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+        }
     ]
 }
     

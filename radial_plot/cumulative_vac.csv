@@ -1,106 +1,106 @@
 ﻿Vax_type,Date,Value
-cases_unvax,1/2/2020,17
-cases_unvax,1/3/2020,2758
-cases_unvax,1/4/2020,5994
-cases_unvax,1/5/2020,7811
-cases_unvax,1/6/2020,8631
-cases_unvax,1/7/2020,8968
-cases_unvax,1/8/2020,9332
-cases_unvax,1/9/2020,11216
-cases_unvax,1/10/2020,31540
-cases_unvax,1/11/2020,65689
-cases_unvax,1/12/2020,113002
-cases_unvax,1/1/2021,214950
-cases_unvax,1/2/2021,300740
-cases_unvax,1/3/2021,345159
-cases_unvax,1/4/2021,407679
-cases_unvax,1/5/2021,566814
-cases_unvax,1/6/2021,735864
-cases_unvax,1/7/2021,1017097
-cases_unvax,1/8/2021,1361603
-cases_unvax,1/9/2021,1556624
-cases_unvax,1/10/2021,1621997
-cases_unvax,1/11/2021,1661785
-cases_unvax,1/12/2021,1690403
-cases_unvax,1/1/2022,1713456
-cases_unvax,1/2/2022,1815542
-cases_unvax,1/3/2022,1925073
-cases_unvax,1/4/2022,1959112
-cases_unvax,1/5/2022,1964835
-cases_unvax,1/6/2022,1969354
-cases_unvax,1/7/2022,1978465
-cases_unvax,1/8/2022,1988384
-cases_unvax,1/9/2022,1993954
-cases_unvax,1/10/2022,1998975
-cases_unvax,1/11/2022,2006551
-cases_unvax,1/12/2022,2010279
-cases_pvax,1/2/2020,0
-cases_pvax,1/3/2020,0
-cases_pvax,1/4/2020,0
-cases_pvax,1/5/2020,0
-cases_pvax,1/6/2020,0
-cases_pvax,1/7/2020,0
-cases_pvax,1/8/2020,0
-cases_pvax,1/9/2020,0
-cases_pvax,1/10/2020,0
-cases_pvax,1/11/2020,0
-cases_pvax,1/12/2020,0
-cases_pvax,1/1/2021,1
-cases_pvax,1/2/2021,4
-cases_pvax,1/3/2021,326
-cases_pvax,1/4/2021,867
-cases_pvax,1/5/2021,3643
-cases_pvax,1/6/2021,10809
-cases_pvax,1/7/2021,73901
-cases_pvax,1/8/2021,268818
-cases_pvax,1/9/2021,370443
-cases_pvax,1/10/2021,390785
-cases_pvax,1/11/2021,393502
-cases_pvax,1/12/2021,394457
-cases_pvax,1/1/2022,395073
-cases_pvax,1/2/2022,399598
-cases_pvax,1/3/2022,419859
-cases_pvax,1/4/2022,431364
-cases_pvax,1/5/2022,432582
-cases_pvax,1/6/2022,433100
-cases_pvax,1/7/2022,433791
-cases_pvax,1/8/2022,434451
-cases_pvax,1/9/2022,434746
-cases_pvax,1/10/2022,434992
-cases_pvax,1/11/2022,435398
-cases_pvax,1/12/2022,435554
-cases_fvax,1/2/2020,0
-cases_fvax,1/3/2020,0
-cases_fvax,1/4/2020,0
-cases_fvax,1/5/2020,0
-cases_fvax,1/6/2020,0
-cases_fvax,1/7/2020,0
-cases_fvax,1/8/2020,0
-cases_fvax,1/9/2020,0
-cases_fvax,1/10/2020,0
-cases_fvax,1/11/2020,0
-cases_fvax,1/12/2020,0
-cases_fvax,1/1/2021,0
-cases_fvax,1/2/2021,0
-cases_fvax,1/3/2021,7
-cases_fvax,1/4/2021,159
-cases_fvax,1/5/2021,1892
-cases_fvax,1/6/2021,5298
-cases_fvax,1/7/2021,22266
-cases_fvax,1/8/2021,115825
-cases_fvax,1/9/2021,318620
-cases_fvax,1/10/2021,458691
-cases_fvax,1/11/2021,574857
-cases_fvax,1/12/2021,665352
-cases_fvax,1/1/2022,737875
-cases_fvax,1/2/2022,993690
-cases_fvax,1/3/2022,1197583
-cases_fvax,1/4/2022,1248165
-cases_fvax,1/5/2022,1259827
-cases_fvax,1/6/2022,1270738
-cases_fvax,1/7/2022,1291683
-cases_fvax,1/8/2022,1312578
-cases_fvax,1/9/2022,1324021
-cases_fvax,1/10/2022,1335170
-cases_fvax,1/11/2022,1354494
-cases_fvax,1/12/2022,1361433
+cases_unvax,"1 February, 2020",17
+cases_unvax,"1 March, 2020",2758
+cases_unvax,"1 April, 2020",5994
+cases_unvax,"1 May, 2020",7811
+cases_unvax,"1 June, 2020",8631
+cases_unvax,"1 July, 2020",8968
+cases_unvax,"1 August, 2020",9332
+cases_unvax,"1 September, 2020",11216
+cases_unvax,"1 October, 2020",31540
+cases_unvax,"1 November, 2020",65689
+cases_unvax,"1 December, 2020",113002
+cases_unvax,"1 January, 2021",214950
+cases_unvax,"1 February, 2021",300740
+cases_unvax,"1 March, 2021",345159
+cases_unvax,"1 April, 2021",407679
+cases_unvax,"1 May, 2021",566814
+cases_unvax,"1 June, 2021",735864
+cases_unvax,"1 July, 2021",1017097
+cases_unvax,"1 August, 2021",1361603
+cases_unvax,"1 September, 2021",1556624
+cases_unvax,"1 October, 2021",1621997
+cases_unvax,"1 November, 2021",1661785
+cases_unvax,"1 December, 2021",1690403
+cases_unvax,"1 January, 2022",1713456
+cases_unvax,"1 February, 2022",1815542
+cases_unvax,"1 March, 2022",1925073
+cases_unvax,"1 April, 2022",1959112
+cases_unvax,"1 May, 2022",1964835
+cases_unvax,"1 June, 2022",1969354
+cases_unvax,"1 July, 2022",1978465
+cases_unvax,"1 August, 2022",1988384
+cases_unvax,"1 September, 2022",1993954
+cases_unvax,"1 October, 2022",1998975
+cases_unvax,"1 November, 2022",2006551
+cases_unvax,"1 December, 2022",2010279
+cases_pvax,"1 February, 2020",0
+cases_pvax,"1 March, 2020",0
+cases_pvax,"1 April, 2020",0
+cases_pvax,"1 May, 2020",0
+cases_pvax,"1 June, 2020",0
+cases_pvax,"1 July, 2020",0
+cases_pvax,"1 August, 2020",0
+cases_pvax,"1 September, 2020",0
+cases_pvax,"1 October, 2020",0
+cases_pvax,"1 November, 2020",0
+cases_pvax,"1 December, 2020",0
+cases_pvax,"1 January, 2021",1
+cases_pvax,"1 February, 2021",4
+cases_pvax,"1 March, 2021",326
+cases_pvax,"1 April, 2021",867
+cases_pvax,"1 May, 2021",3643
+cases_pvax,"1 June, 2021",10809
+cases_pvax,"1 July, 2021",73901
+cases_pvax,"1 August, 2021",268818
+cases_pvax,"1 September, 2021",370443
+cases_pvax,"1 October, 2021",390785
+cases_pvax,"1 November, 2021",393502
+cases_pvax,"1 December, 2021",394457
+cases_pvax,"1 January, 2022",395073
+cases_pvax,"1 February, 2022",399598
+cases_pvax,"1 March, 2022",419859
+cases_pvax,"1 April, 2022",431364
+cases_pvax,"1 May, 2022",432582
+cases_pvax,"1 June, 2022",433100
+cases_pvax,"1 July, 2022",433791
+cases_pvax,"1 August, 2022",434451
+cases_pvax,"1 September, 2022",434746
+cases_pvax,"1 October, 2022",434992
+cases_pvax,"1 November, 2022",435398
+cases_pvax,"1 December, 2022",435554
+cases_fvax,"1 February, 2020",0
+cases_fvax,"1 March, 2020",0
+cases_fvax,"1 April, 2020",0
+cases_fvax,"1 May, 2020",0
+cases_fvax,"1 June, 2020",0
+cases_fvax,"1 July, 2020",0
+cases_fvax,"1 August, 2020",0
+cases_fvax,"1 September, 2020",0
+cases_fvax,"1 October, 2020",0
+cases_fvax,"1 November, 2020",0
+cases_fvax,"1 December, 2020",0
+cases_fvax,"1 January, 2021",0
+cases_fvax,"1 February, 2021",0
+cases_fvax,"1 March, 2021",7
+cases_fvax,"1 April, 2021",159
+cases_fvax,"1 May, 2021",1892
+cases_fvax,"1 June, 2021",5298
+cases_fvax,"1 July, 2021",22266
+cases_fvax,"1 August, 2021",115825
+cases_fvax,"1 September, 2021",318620
+cases_fvax,"1 October, 2021",458691
+cases_fvax,"1 November, 2021",574857
+cases_fvax,"1 December, 2021",665352
+cases_fvax,"1 January, 2022",737875
+cases_fvax,"1 February, 2022",993690
+cases_fvax,"1 March, 2022",1197583
+cases_fvax,"1 April, 2022",1248165
+cases_fvax,"1 May, 2022",1259827
+cases_fvax,"1 June, 2022",1270738
+cases_fvax,"1 July, 2022",1291683
+cases_fvax,"1 August, 2022",1312578
+cases_fvax,"1 September, 2022",1324021
+cases_fvax,"1 October, 2022",1335170
+cases_fvax,"1 November, 2022",1354494
+cases_fvax,"1 December, 2022",1361433

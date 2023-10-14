@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width":500,
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/radial_plot/cumulative_vac.csv"},
+  "params": [
+        {
+            "name": "Year_selection",
+            "value": 2021,
+            "bind": {
+              "input": "range",
+              "min": 2020,
+              "max": 2022,
+              "step": 1,
+              "name": "Year:"
+            }
+        }
+  ],
+  "transform": [{
+    "timeUnit": "month",
+    "field": "Date",
+    "as": "month"
+  },
+  {"filter": {"timeUnit": "year", "field": "Date", "equal": "Year_selection"}},
+  {"calculate": "datum.Value/100000", "as": "new_Val"}
+  ],
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {"timeUnit": "yearmonth", "field": "Date", "type": "ordinal"},
+    "y": {"field": "new_Val", "type": "quantitative"},
+    "color": {
+      "field": "Vax_type", "type": "nominal", 
+      "title": "Types of Vaccinated Cases", 
+      "scale": {
+        "domain":["Unvaccinated", "Partially Vaccinated", "Fully Vaccinated"],
+        "range":["#08306b","#2171b5","#9ecae1"]
+      }
+    },
+    "tooltip": [
+        {"timeUnit": "month","field": "Date"},
+        {"field": "new_Val", "type": "quantitative"}
+      ]
+  }
+}

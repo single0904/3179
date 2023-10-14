@@ -1,109 +1,109 @@
 ﻿Vax_type,Date,Value
-cases_unvax,1 1 2020,0
-cases_unvax,2 1 2020,17
-cases_unvax,3 1 2020,2758
-cases_unvax,4 1 2020,5994
-cases_unvax,5 1 2020,7811
-cases_unvax,6 1 2020,8631
-cases_unvax,7 1 2020,8968
-cases_unvax,8 1 2020,9332
-cases_unvax,9 1 2020,11216
-cases_unvax,10 1 2020,31540
-cases_unvax,11 1 2020,65689
-cases_unvax,12 1 2020,113002
-cases_unvax,Jan 1 2021,214950
-cases_unvax,2 1 2021,300740
-cases_unvax,3 1 2021,345159
-cases_unvax,4 1 2021,407679
-cases_unvax,5 1 2021,566814
-cases_unvax,6 1 2021,735864
-cases_unvax,7 1 2021,1017097
-cases_unvax,8 1 2021,1361603
-cases_unvax,9 1 2021,1556624
-cases_unvax,10 1 2021,1621997
-cases_unvax,11 1 2021,1661785
-cases_unvax,12 1 2021,1690403
-cases_unvax,Jan 1 2022,1713456
-cases_unvax,2 1 2022,1815542
-cases_unvax,3 1 2022,1925073
-cases_unvax,4 1 2022,1959112
-cases_unvax,5 1 2022,1964835
-cases_unvax,6 1 2022,1969354
-cases_unvax,7 1 2022,1978465
-cases_unvax,8 1 2022,1988384
-cases_unvax,9 1 2022,1993954
-cases_unvax,10 1 2022,1998975
-cases_unvax,11 1 2022,2006551
-cases_unvax,12 1 2022,2010279
-cases_pvax,Jan 1 2020,0
-cases_pvax,2 1 2020,0
-cases_pvax,3 1 2020,0
-cases_pvax,4 1 2020,0
-cases_pvax,5 1 2020,0
-cases_pvax,6 1 2020,0
-cases_pvax,7 1 2020,0
-cases_pvax,8 1 2020,0
-cases_pvax,9 1 2020,0
-cases_pvax,10 1 2020,0
-cases_pvax,11 1 2020,0
-cases_pvax,12 1 2020,0
-cases_pvax,Jan 1 2021,1
-cases_pvax,2 1 2021,4
-cases_pvax,3 1 2021,326
-cases_pvax,4 1 2021,867
-cases_pvax,5 1 2021,3643
-cases_pvax,6 1 2021,10809
-cases_pvax,7 1 2021,73901
-cases_pvax,8 1 2021,268818
-cases_pvax,9 1 2021,370443
-cases_pvax,10 1 2021,390785
-cases_pvax,11 1 2021,393502
-cases_pvax,12 1 2021,394457
-cases_pvax,Jan 1 2022,395073
-cases_pvax,2 1 2022,399598
-cases_pvax,3 1 2022,419859
-cases_pvax,4 1 2022,431364
-cases_pvax,5 1 2022,432582
-cases_pvax,6 1 2022,433100
-cases_pvax,7 1 2022,433791
-cases_pvax,8 1 2022,434451
-cases_pvax,9 1 2022,434746
-cases_pvax,10 1 2022,434992
-cases_pvax,11 1 2022,435398
-cases_pvax,12 1 2022,435554
-cases_fvax,Jan 1 2020,0
-cases_fvax,2 1 2020,0
-cases_fvax,3 1 2020,0
-cases_fvax,4 1 2020,0
-cases_fvax,5 1 2020,0
-cases_fvax,6 1 2020,0
-cases_fvax,7 1 2020,0
-cases_fvax,8 1 2020,0
-cases_fvax,9 1 2020,0
-cases_fvax,10 1 2020,0
-cases_fvax,11 1 2020,0
-cases_fvax,12 1 2020,0
-cases_fvax,Jan 1 2021,0
-cases_fvax,2 1 2021,0
-cases_fvax,3 1 2021,7
-cases_fvax,4 1 2021,159
-cases_fvax,5 1 2021,1892
-cases_fvax,6 1 2021,5298
-cases_fvax,7 1 2021,22266
-cases_fvax,8 1 2021,115825
-cases_fvax,9 1 2021,318620
-cases_fvax,10 1 2021,458691
-cases_fvax,11 1 2021,574857
-cases_fvax,12 1 2021,665352
-cases_fvax,Jan 1 2022,737875
-cases_fvax,2 1 2022,993690
-cases_fvax,3 1 2022,1197583
-cases_fvax,4 1 2022,1248165
-cases_fvax,5 1 2022,1259827
-cases_fvax,6 1 2022,1270738
-cases_fvax,7 1 2022,1291683
-cases_fvax,8 1 2022,1312578
-cases_fvax,9 1 2022,1324021
-cases_fvax,10 1 2022,1335170
-cases_fvax,11 1 2022,1354494
-cases_fvax,12 1 2022,1361433
+Unvaccinated,1 1 2020,0
+Unvaccinated,2 1 2020,17
+Unvaccinated,3 1 2020,2758
+Unvaccinated,4 1 2020,5994
+Unvaccinated,5 1 2020,7811
+Unvaccinated,6 1 2020,8631
+Unvaccinated,7 1 2020,8968
+Unvaccinated,8 1 2020,9332
+Unvaccinated,9 1 2020,11216
+Unvaccinated,10 1 2020,31540
+Unvaccinated,11 1 2020,65689
+Unvaccinated,12 1 2020,113002
+Unvaccinated,Jan 1 2021,214950
+Unvaccinated,2 1 2021,300740
+Unvaccinated,3 1 2021,345159
+Unvaccinated,4 1 2021,407679
+Unvaccinated,5 1 2021,566814
+Unvaccinated,6 1 2021,735864
+Unvaccinated,7 1 2021,1017097
+Unvaccinated,8 1 2021,1361603
+Unvaccinated,9 1 2021,1556624
+Unvaccinated,10 1 2021,1621997
+Unvaccinated,11 1 2021,1661785
+Unvaccinated,12 1 2021,1690403
+Unvaccinated,Jan 1 2022,1713456
+Unvaccinated,2 1 2022,1815542
+Unvaccinated,3 1 2022,1925073
+Unvaccinated,4 1 2022,1959112
+Unvaccinated,5 1 2022,1964835
+Unvaccinated,6 1 2022,1969354
+Unvaccinated,7 1 2022,1978465
+Unvaccinated,8 1 2022,1988384
+Unvaccinated,9 1 2022,1993954
+Unvaccinated,10 1 2022,1998975
+Unvaccinated,11 1 2022,2006551
+Unvaccinated,12 1 2022," 2,010,279.00 "
+Partially Vaccinated,Jan 1 2020,0
+Partially Vaccinated,2 1 2020,0
+Partially Vaccinated,3 1 2020,0
+Partially Vaccinated,4 1 2020,0
+Partially Vaccinated,5 1 2020,0
+Partially Vaccinated,6 1 2020,0
+Partially Vaccinated,7 1 2020,0
+Partially Vaccinated,8 1 2020,0
+Partially Vaccinated,9 1 2020,0
+Partially Vaccinated,10 1 2020,0
+Partially Vaccinated,11 1 2020,0
+Partially Vaccinated,12 1 2020,0
+Partially Vaccinated,Jan 1 2021,1
+Partially Vaccinated,2 1 2021,4
+Partially Vaccinated,3 1 2021,326
+Partially Vaccinated,4 1 2021,867
+Partially Vaccinated,5 1 2021,3643
+Partially Vaccinated,6 1 2021,10809
+Partially Vaccinated,7 1 2021,73901
+Partially Vaccinated,8 1 2021,268818
+Partially Vaccinated,9 1 2021,370443
+Partially Vaccinated,10 1 2021,390785
+Partially Vaccinated,11 1 2021,393502
+Partially Vaccinated,12 1 2021,394457
+Partially Vaccinated,Jan 1 2022,395073
+Partially Vaccinated,2 1 2022,399598
+Partially Vaccinated,3 1 2022,419859
+Partially Vaccinated,4 1 2022,431364
+Partially Vaccinated,5 1 2022,432582
+Partially Vaccinated,6 1 2022,433100
+Partially Vaccinated,7 1 2022,433791
+Partially Vaccinated,8 1 2022,434451
+Partially Vaccinated,9 1 2022,434746
+Partially Vaccinated,10 1 2022,434992
+Partially Vaccinated,11 1 2022,435398
+Partially Vaccinated,12 1 2022,435554
+Fully Vaccinated,Jan 1 2020,0
+Fully Vaccinated,2 1 2020,0
+Fully Vaccinated,3 1 2020,0
+Fully Vaccinated,4 1 2020,0
+Fully Vaccinated,5 1 2020,0
+Fully Vaccinated,6 1 2020,0
+Fully Vaccinated,7 1 2020,0
+Fully Vaccinated,8 1 2020,0
+Fully Vaccinated,9 1 2020,0
+Fully Vaccinated,10 1 2020,0
+Fully Vaccinated,11 1 2020,0
+Fully Vaccinated,12 1 2020,0
+Fully Vaccinated,Jan 1 2021,0
+Fully Vaccinated,2 1 2021,0
+Fully Vaccinated,3 1 2021,7
+Fully Vaccinated,4 1 2021,159
+Fully Vaccinated,5 1 2021,1892
+Fully Vaccinated,6 1 2021,5298
+Fully Vaccinated,7 1 2021,22266
+Fully Vaccinated,8 1 2021,115825
+Fully Vaccinated,9 1 2021,318620
+Fully Vaccinated,10 1 2021,458691
+Fully Vaccinated,11 1 2021,574857
+Fully Vaccinated,12 1 2021,665352
+Fully Vaccinated,Jan 1 2022,737875
+Fully Vaccinated,2 1 2022,993690
+Fully Vaccinated,3 1 2022,1197583
+Fully Vaccinated,4 1 2022,1248165
+Fully Vaccinated,5 1 2022,1259827
+Fully Vaccinated,6 1 2022,1270738
+Fully Vaccinated,7 1 2022,1291683
+Fully Vaccinated,8 1 2022,1312578
+Fully Vaccinated,9 1 2022,1324021
+Fully Vaccinated,10 1 2022,1335170
+Fully Vaccinated,11 1 2022,1354494
+Fully Vaccinated,12 1 2022,1361433

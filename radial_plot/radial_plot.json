@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple radial chart with embedded data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/single0904/3179/main/radial_plot/test_types.csv"
+    },
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text", "radiusOffset": 15},
+      "encoding": {
+        "text": {"field": "test_type", "type": "nominal"}
+      }
+    }],
+    "transform": [
+      {"calculate": "datum.Value/datum.Total * 100"  , "as": "new_Val"}],
+    "encoding": {
+      "theta": {"field": "Value", "type": "quantitative", "stack": true},
+      "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {"field": "Value", "type": "nominal", "legend": null},
+      "tooltip": [
+          {"field": "test_type", "title": "Test Type"},
+          {"field": "Value", "type": "quantitative"},
+          {"field": "new_Val", "format":".2f"}
+        ]
+  
+    }
+  }

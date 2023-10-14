@@ -1,9 +1,22 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "data/seattle-weather.csv"
+        "url": "https://raw.githubusercontent.com/single0904/3179/main/heat_map/cumulative_test.csv"
     },
-    "title": "Daily Max Temperatures (C) in Seattle, WA",
+    "title": "Daily Covid Tests in Malaysia",
+    "params": [
+          {
+              "name": "Year_selection",
+              "value": 2021,
+              "bind": {
+                "input": "range",
+                "min": 2020,
+                "max": 2022,
+                "step": 1,
+                "name": "Year:"
+              }
+          }
+    ],
     "config": {
         "view": {
             "strokeWidth": 0,
@@ -13,6 +26,13 @@
             "domain": false
         }
     },
+    "transform": [{
+      "timeUnit": "month",
+      "field": "date",
+      "as": "month"
+    },
+    {"filter": {"timeUnit": "year", "field": "date", "equal": "Year_selection"}}
+    ],
     "mark": "rect",
     "encoding": {
         "x": {
@@ -32,8 +52,7 @@
             "title": "Month"
         },
         "color": {
-            "field": "temp_max",
-            "aggregate": "max",
+            "field": "value",
             "type": "quantitative"
         }
     }

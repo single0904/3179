@@ -1,10 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
     "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/bar_chart/stacked_bar%20.csv"
     },
     "title": {
       "text": "Total number of cases vs total number of recovered cases in each state",
-      "subtitle": "Stacked bar chart",
+      "subtitle": "Group bar chart",
       "subtitleColor": "gray"
     },
     "mark": "bar",

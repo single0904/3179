@@ -21,7 +21,7 @@
         },
         {
             "name": "Year_selection",
-            "value": [30,0],
+            "value": 2021,
             "bind": {
               "input": "select",
               "options": [
@@ -71,15 +71,10 @@
             }
         },
         {
-            "calculate": "year(datum.Time)",  
-            "as": "Year"
-        },
-        {
-            "calculate": "month(datum.Time)",  
-            "as": "Month"
-        },
-        {"filter": "datum.Year == Year_selection"},
-        {"filter": "datum.Month == Month_selection"}
+            "timeUnit": "yearmonth",
+            "field": "Time",
+            "as": "YearMonth"
+        }
 
         ],
 
@@ -101,9 +96,10 @@
                 "tooltip": [
                     {"field": "properties.name", "type": "nominal", "title": "states"},
                     {"field": "Cumulative New Cases", "type": "quantitative"},
-                    {"field": "New Cases per 1000 people", "type": "quantitative", "title": "New Cases per 1000 people"}
+                    {"field": "YearMonth", "type": "temporal", "title": "Date"}
                 ]
             }
+            
         },
         {
             "data": {

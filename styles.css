@@ -1,4 +1,28 @@
-#chloropleth_map {
+.pure-g {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pure-u-1-2 {
+    margin-top: 60px;
+}
+
+.pure-u-1-6 img {
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 85px;
+    width: 85px;
+}
+
+.pure-u-1-8 img {
+    margin-top: 20px;
+    height: 65px;
+    width: 65px;
+}
+
+#choropleth_map {
     margin-top: 5px;
     margin-left: 3px;
     height: 400px;
@@ -24,7 +48,7 @@
 
 #radial_plot {
     margin-top: 7px;
-    margin-left: 10px;
+    margin-left: 50px;
     height: 400px;
     width: 600px;
     font-size: 10;

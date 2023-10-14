@@ -5,7 +5,7 @@
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": { 
-        "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/ne_10m_admin_1_states_provinces.json",
+        "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_10m_admin_1_states_provinces.json",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
     },
     "layer":[
@@ -22,23 +22,19 @@
             }
         },
         {
-            "calculate": "datum.cases_new/datum.per_1000", 
+            "calculate": "datum.cases_new/1000 ", 
             "as": "New Cases per 1000 people"}
         ],
 
-        "mark": {
-            "type": "geoshape",
-            "stroke": "#757575",
-            "strokeWidth": 0.75
-          },
+        "mark": {"type": "geoshape"},
         "encoding": {
             "color": {
                 "field": "New Cases per 1000 people",
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
-                    "domain": [1,100, 200, 300],
-                    "range": ["#e6f5c9","#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+                    "domain": [100, 200, 300],
+                    "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                 }
             },
                 "tooltip": [
@@ -53,7 +49,7 @@
               "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_110m_graticules_30.json",
               "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
             },
-            "mark": {"type": "geoshape", "fill": null, "stroke": "black"}
+            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
           },
           {
             "data": {
@@ -61,12 +57,6 @@
               "format": {"type": "topojson", "feature": "ne_110m_ocean"}
             },
             "mark": {"type": "geoshape", "fill": "skyblue"}
-          },
-          {
-            "data": {
-              "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/ahmitofo.csv"
-            },
-            "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "black"}
           }
     ]
 }

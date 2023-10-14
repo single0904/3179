@@ -70,8 +70,7 @@
                   "key": "properties.name"
                 },
                 "as": "geo"
-              },
-              {"filter": "datum.Time == Month_selection"}
+              }
             ],
             "mark": {
                 "type": "geoshape",

@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple radial chart with embedded data.",
-    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/A2/vaccinated_data.csv"
+    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/radial_plot/vaccinated_data.csv"
     },
     "title": "The Number of cases of Unvax, Partially Vaxed and Fully Vaxed people",
     "layer": [{

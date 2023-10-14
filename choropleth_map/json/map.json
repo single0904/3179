@@ -1,21 +1,36 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Malaysia Covid-19 Cases per 1000 people",
-    "width": 800,
-    "height": 400,
+    "width": 500,
+    "height": 300,
     "projection": {"type": "equalEarth"},
     "data": { 
-        "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/ne_10m_admin_1_states_provinces.json",
+        "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_10m_admin_1_states_provinces.json",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
     },
     "layer":[
+        {
+            "data": {
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_10m_admin_1_states_provinces.json",
+              "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
+            },
+            "transform": [
+              {"calculate": "'Data is not available in ' + datum.properties.name", "as": "note"}
+            ],
+            "mark": {"type": "geoshape", "fill": "white", "stroke": "black", "strokeWidth": 0.5},
+            "encoding": {
+              "tooltip": {
+                "field": "note"
+              }
+            }
+          },
         {
             "transform": [
         {
             "lookup": "properties.name",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/single0904/3179/main/malaysia_cases.csv"
+                    "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/data/malaysia_cases(without_extra_states).csv"
                 },
                 "key": "state",
                 "fields": ["cases_new", "cases_recovered", "cases_active","per_1000"]
@@ -37,8 +52,8 @@
                 "type": "quantitative",
                 "scale": {
                     "type": "threshold",
-                    "domain": [1,100, 200, 300],
-                    "range": ["#e6f5c9","#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+                    "domain": [100, 200, 300],
+                    "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                 }
             },
                 "tooltip": [
@@ -50,14 +65,14 @@
         },
         {
             "data": {
-              "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_110m_graticules_30.json",
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_110m_graticules_30.json",
               "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
             },
             "mark": {"type": "geoshape", "fill": null, "stroke": "black"}
           },
           {
             "data": {
-              "url": "https://raw.githubusercontent.com/single0904/3179/main/ne_110m_ocean.json",
+              "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_110m_ocean.json",
               "format": {"type": "topojson", "feature": "ne_110m_ocean"}
             },
             "mark": {"type": "geoshape", "fill": "skyblue"}

@@ -5,7 +5,7 @@
         "text": "The number of cases of different age groups in Malaysia"
       },
     "data": {
-      "url": "https://raw.githubusercontent.com/single0904/3179/main/A2/pie_data.csv"
+      "url": "https://raw.githubusercontent.com/single0904/3179/main/pie_chart/pie_data.csv"
     },
     "mark": {"type": "arc", "innerRadius": 50, "strokeOpacity": 0.75},
     "encoding": {

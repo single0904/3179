@@ -1,4 +1,5 @@
 ﻿Vax_type,Date,Value
+cases_unvax,"1 January, 2020",0
 cases_unvax,"1 February, 2020",17
 cases_unvax,"1 March, 2020",2758
 cases_unvax,"1 April, 2020",5994
@@ -34,6 +35,7 @@ cases_unvax,"1 September, 2022",1993954
 cases_unvax,"1 October, 2022",1998975
 cases_unvax,"1 November, 2022",2006551
 cases_unvax,"1 December, 2022",2010279
+cases_pvax,"1 January, 2020",0
 cases_pvax,"1 February, 2020",0
 cases_pvax,"1 March, 2020",0
 cases_pvax,"1 April, 2020",0
@@ -69,6 +71,7 @@ cases_pvax,"1 September, 2022",434746
 cases_pvax,"1 October, 2022",434992
 cases_pvax,"1 November, 2022",435398
 cases_pvax,"1 December, 2022",435554
+cases_fvax,"1 January, 2020",0
 cases_fvax,"1 February, 2020",0
 cases_fvax,"1 March, 2020",0
 cases_fvax,"1 April, 2020",0

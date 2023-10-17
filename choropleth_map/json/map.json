@@ -90,7 +90,8 @@
                 },
                     "tooltip": [
                         {"field": "State", "type": "nominal", "title": "states"},
-                        {"field": "cases_capita", "type": "quantitative", "format": ".2f"},
+                        {"field": "cases_capita", "type": "quantitative", "format": ".4f"},
+                        {"field": "Cumulative New Cases", "type": "quantitative"},
                         {"field": "Year", "type": "ordinal"},
                         {"field": "Month", "type": "ordinal"}
     

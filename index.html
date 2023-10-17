@@ -119,6 +119,52 @@
             <div id="line_graph"></div>
         </div>
 
+        <div class="pure-u-1-2"; style="margin-bottom: -85px">
+            <div class="pure-u-1-8">
+                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840653.png">
+            </div>
+            <div class="pure-u-3-4">
+                <h4>
+                    COUNTRIES WITH THE 10 <span style="color: #3690c0">HIGHEST</span> AND <span style="color: #fd8d3c">LOWEST</span>
+                    AVERAGE LIFE EXPECTANCY RESPECTIVELY ACROSS THE WORLD <br>FROM 2000 TO 2015
+                    <br>
+                </h4>
+            </div>
+            <p style="font-size: 13.5px">
+                To begin with, let us take a look at the top and bottom 10 countries across
+                the world based<br>on their average life expectancy over the 16 years.<br><br>
+
+                <span id="bold">Japan</span> had been the champion in the world by having the <span id="bold"; style="color: #3690c0">highest</span> average life
+                expectancy,<br>whereas <span id="bold">Sierra Leone</span> had been staying at the bottom one by having the 
+                <span id="bold"; style="color: #fd8d3c">lowest</span> average life<br>expectancy, among all other countries.
+                <br><br><br>
+            </p>
+            <div id="radial_plot"></div>
+        </div>
+
+        <div class="pure-u-1-2"; style="margin-bottom: -85px">
+            <div class="pure-u-1-8">
+                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840653.png">
+            </div>
+            <div class="pure-u-3-4">
+                <h4>
+                    COUNTRIES WITH THE 10 <span style="color: #3690c0">HIGHEST</span> AND <span style="color: #fd8d3c">LOWEST</span>
+                    AVERAGE LIFE EXPECTANCY RESPECTIVELY ACROSS THE WORLD <br>FROM 2000 TO 2015
+                    <br>
+                </h4>
+            </div>
+            <p style="font-size: 13.5px">
+                To begin with, let us take a look at the top and bottom 10 countries across
+                the world based<br>on their average life expectancy over the 16 years.<br><br>
+
+                <span id="bold">Japan</span> had been the champion in the world by having the <span id="bold"; style="color: #3690c0">highest</span> average life
+                expectancy,<br>whereas <span id="bold">Sierra Leone</span> had been staying at the bottom one by having the 
+                <span id="bold"; style="color: #fd8d3c">lowest</span> average life<br>expectancy, among all other countries.
+                <br><br><br>
+            </p>
+            <div id="heat_map"></div>
+        </div>
+
     </div>
 
     <script type="text/javascript">
@@ -140,6 +186,16 @@
 
         var vis4 = "line_graph/line_graph.json";
         vegaEmbed('#line_graph', vis4).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var vis5 = "radial_plot/radial_plot.json";
+        vegaEmbed('#radial_plot', vis5).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        
+        var vis6 = "heat_map/heat_map.json";
+        vegaEmbed('#heat_map', vis6).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 

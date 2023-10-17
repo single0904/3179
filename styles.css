@@ -34,7 +34,7 @@
     margin-top: 7px;
     margin-left: 10px;
     height: 400px;
-    width: 600px;
+    width: 1000px;
     font-size: 10;
 }
 
@@ -47,6 +47,22 @@
 }
 
 #line_graph {
+    margin-top: 7px;
+    margin-left: 50px;
+    height: 400px;
+    width: 600px;
+    font-size: 10;
+}
+
+#radial_plot {
+    margin-top: 7px;
+    margin-left: 50px;
+    height: 400px;
+    width: 600px;
+    font-size: 10;
+}
+
+#heat_map {
     margin-top: 7px;
     margin-left: 50px;
     height: 400px;

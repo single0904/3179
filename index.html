@@ -93,7 +93,7 @@
                 Therefore, it shows that <span id="bold">high <span style="color: #fd8d3c">adult mortality rate</span></span> was one of the major causes of a country's <span id="bold">low <br>average life expectancy</span>.
                 <br><br><br>
             </p>
-            <div id="pie_chart"></div>
+            <div id="stacked_area_chart"></div>
         </div>
 
         <div class="pure-u-1-2"; style="margin-bottom: 15px">
@@ -179,8 +179,8 @@
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
-        var vis3 = "pie_chart/pie_chart.json";
-        vegaEmbed('#pie_chart', vis3).then(function(result) {
+        var vis3 = "stacked_area_chart/stacked_area_chart.json";
+        vegaEmbed('#stacked_area_chart', vis3).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 

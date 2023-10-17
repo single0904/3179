@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 400,
+    "width": 500, "height": 400,
     "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/bar_chart/stacked_bar%20.csv"
     },
     "params": [

@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Malaysia Covid-19 Cases per 1000 people",
-    "width": 600,
-    "height": 300,
+    "width": 500,
+    "height": 400,
     "data": { 
         "url": "https://raw.githubusercontent.com/single0904/3179/main/choropleth_map/json/ne_10m_admin_1_states_provinces.json",
     "format": {"type": "topojson", "feature": "ne_10m_admin_1_states_provinces"}
@@ -72,7 +72,8 @@
                 },
                 "as": "geo"
               },
-              {"filter": "datum.Year == Year_selection && datum.Month == Month_selection"}
+              {"filter": "datum.Year == Year_selection && datum.Month == Month_selection"},
+              {"calculate": "datum.Cumulative New Cases/100000", "as": "new_Val"}
             ],
             "mark": {
                 "type": "geoshape",
@@ -91,7 +92,7 @@
                     "tooltip": [
                         {"field": "State", "type": "nominal", "title": "State"},
                         {"field": "cases_capita", "type": "quantitative", "format": ".4f", "title": "Number of Cases per capita state"},
-                        {"field": "Cumulative New Cases", "type": "quantitative"},
+                        {"field": "new_Val", "type": "quantitative"},
                         {"field": "Year", "type": "ordinal"},
                         {"field": "Month", "type": "ordinal"}
     

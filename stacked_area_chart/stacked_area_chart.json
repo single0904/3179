@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500, "height": 400,
+    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/stacked_area_chart/stacked_area_data.csv"},
+    "mark": {"type": "area", "point": true},
+    "params": [
+        {
+          "name": "Year_selection",
+          "value": 2021,
+          "bind": 
+          {
+            "input": "range",
+            "min": 2020,
+            "max": 2022,
+            "step": 1,
+            "name": "Year:"
+          }
+        },
+        {
+          "name": "hover", 
+          "select": 
+          {
+            "type": "point", 
+            "on": "mouseover"
+          }
+        }
+    ],
+    "transform": [{
+        "timeUnit": "month",
+        "field": "Date",
+        "as": "month"
+      },
+      {"filter": {"timeUnit": "year", "field": "Date", "equal": "Year_selection"}},
+      {"calculate": "datum.Value/100000", "as": "new_Val"}
+    ],
+    "encoding": {
+      "x": {
+        "timeUnit": "yearmonth", "field": "Date"
+      },
+      "y": {
+        "aggregate": "sum", "field": "Value"
+      },
+      "color": {
+        "condition":{
+            "param": "hover",
+            "field": "Vax_type",
+            "title": "Types of Vaccinated Cases", 
+            "type": "nominal"},
+            
+          "value": "lightgrey"
+      },
+      "tooltip": [
+        {"field": "Date", "timeUnit": "month", "type": "ordinal"},
+        {"field": "Value", "type": "quantitative", "title": "Number of Deaths"}
+      ]
+      
+    }
+  }
+  

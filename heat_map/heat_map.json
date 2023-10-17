@@ -3,6 +3,7 @@
     "data": {
         "url": "https://raw.githubusercontent.com/single0904/3179/main/heat_map/cumulative_test.csv"
     },
+    "width": 500, "height": 400,
     "title": "Daily Covid Tests in Malaysia",
     "params": [
           {

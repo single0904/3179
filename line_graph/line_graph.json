@@ -51,7 +51,7 @@
     },
     "tooltip": [
         {"timeUnit": "month","field": "Date"},
-        {"field": "new_Val", "type": "quantitative"}
+        {"field": "new_Val", "type": "quantitative", "format": ".2f", "title": "Cases per 100,000 people"}
       ]
   }
 }

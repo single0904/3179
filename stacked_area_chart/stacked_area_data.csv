@@ -1,34 +1,100 @@
-﻿Year,Month,Unvaccinated,Partially Vaccinated,Fully Vaccinated
-2020,4,55,0,0
-2020,5,12,0,0
-2020,6,6,0,0
-2020,7,4,0,0
-2020,8,3,0,0
-2020,9,10,0,0
-2020,10,129,0,0
-2020,11,116,0,0
-2020,12,133,0,0
-2021,1,397,0,0
-2021,2,309,0,0
-2021,3,134,1,0
-2021,4,258,0,0
-2021,5,1546,74,0
-2021,6,2266,231,5
-2021,7,4661,1846,168
-2021,8,5532,2570,770
-2021,9,3161,1179,1217
-2021,10,1089,200,1077
-2021,11,524,55,801
-2021,12,363,30,576
-2022,1,167,11,232
-2022,2,333,30,512
-2022,3,658,51,947
-2022,4,162,13,173
-2022,5,36,3,45
-2022,6,21,0,27
-2022,7,50,5,79
-2022,8,67,2,71
-2022,9,53,1,34
-2022,10,30,0,34
-2022,11,57,5,77
-2022,12,47,0,41
+﻿Vax_type,Date,Value
+Unvaccinated,4 1 2020,55
+Unvaccinated,5 1 2020,12
+Unvaccinated,6 1 2020,6
+Unvaccinated,7 1 2020,4
+Unvaccinated,8 1 2020,3
+Unvaccinated,9 1 2020,10
+Unvaccinated,10 1 2020,129
+Unvaccinated,11 1 2020,116
+Unvaccinated,12 1 2020,133
+Unvaccinated,Jan 1 2021,397
+Unvaccinated,2 1 2021,309
+Unvaccinated,3 1 2021,134
+Unvaccinated,4 1 2021,258
+Unvaccinated,5 1 2021,1546
+Unvaccinated,6 1 2021,2266
+Unvaccinated,7 1 2021,4661
+Unvaccinated,8 1 2021,5532
+Unvaccinated,9 1 2021,3161
+Unvaccinated,10 1 2021,1089
+Unvaccinated,11 1 2021,524
+Unvaccinated,12 1 2021,363
+Unvaccinated,Jan 1 2022,167
+Unvaccinated,2 1 2022,333
+Unvaccinated,3 1 2022,658
+Unvaccinated,4 1 2022,162
+Unvaccinated,5 1 2022,36
+Unvaccinated,6 1 2022,21
+Unvaccinated,7 1 2022,50
+Unvaccinated,8 1 2022,67
+Unvaccinated,9 1 2022,53
+Unvaccinated,10 1 2022,30
+Unvaccinated,11 1 2022,57
+Unvaccinated,12 1 2022,47
+Partially Vaccinated,4 1 2020,0
+Partially Vaccinated,5 1 2020,0
+Partially Vaccinated,6 1 2020,0
+Partially Vaccinated,7 1 2020,0
+Partially Vaccinated,8 1 2020,0
+Partially Vaccinated,9 1 2020,0
+Partially Vaccinated,10 1 2020,0
+Partially Vaccinated,11 1 2020,0
+Partially Vaccinated,12 1 2020,0
+Partially Vaccinated,Jan 1 2021,0
+Partially Vaccinated,2 1 2021,0
+Partially Vaccinated,3 1 2021,1
+Partially Vaccinated,4 1 2021,0
+Partially Vaccinated,5 1 2021,74
+Partially Vaccinated,6 1 2021,231
+Partially Vaccinated,7 1 2021,1846
+Partially Vaccinated,8 1 2021,2570
+Partially Vaccinated,9 1 2021,1179
+Partially Vaccinated,10 1 2021,200
+Partially Vaccinated,11 1 2021,55
+Partially Vaccinated,12 1 2021,30
+Partially Vaccinated,Jan 1 2022,11
+Partially Vaccinated,2 1 2022,30
+Partially Vaccinated,3 1 2022,51
+Partially Vaccinated,4 1 2022,13
+Partially Vaccinated,5 1 2022,3
+Partially Vaccinated,6 1 2022,0
+Partially Vaccinated,7 1 2022,5
+Partially Vaccinated,8 1 2022,2
+Partially Vaccinated,9 1 2022,1
+Partially Vaccinated,10 1 2022,0
+Partially Vaccinated,11 1 2022,5
+Partially Vaccinated,12 1 2022,0
+Fully Vaccinated,4 1 2020,0
+Fully Vaccinated,5 1 2020,0
+Fully Vaccinated,6 1 2020,0
+Fully Vaccinated,7 1 2020,0
+Fully Vaccinated,8 1 2020,0
+Fully Vaccinated,9 1 2020,0
+Fully Vaccinated,10 1 2020,0
+Fully Vaccinated,11 1 2020,0
+Fully Vaccinated,12 1 2020,0
+Fully Vaccinated,Jan 1 2021,0
+Fully Vaccinated,2 1 2021,0
+Fully Vaccinated,3 1 2021,0
+Fully Vaccinated,4 1 2021,0
+Fully Vaccinated,5 1 2021,0
+Fully Vaccinated,6 1 2021,5
+Fully Vaccinated,7 1 2021,168
+Fully Vaccinated,8 1 2021,770
+Fully Vaccinated,9 1 2021,1217
+Fully Vaccinated,10 1 2021,1077
+Fully Vaccinated,11 1 2021,801
+Fully Vaccinated,12 1 2021,576
+Fully Vaccinated,Jan 1 2022,232
+Fully Vaccinated,2 1 2022,512
+Fully Vaccinated,3 1 2022,947
+Fully Vaccinated,4 1 2022,173
+Fully Vaccinated,5 1 2022,45
+Fully Vaccinated,6 1 2022,27
+Fully Vaccinated,7 1 2022,79
+Fully Vaccinated,8 1 2022,71
+Fully Vaccinated,9 1 2022,34
+Fully Vaccinated,10 1 2022,34
+Fully Vaccinated,11 1 2022,77
+Fully Vaccinated,12 1 2022,41

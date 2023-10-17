@@ -4,25 +4,38 @@
         "title": {
         "text": "The number of cases of different age groups in Malaysia"
       },
+      "width": 500, "height": 400,
     "data": {
-      "url": "https://raw.githubusercontent.com/single0904/3179/main/pie_chart/pie_data.csv"
+      "url": "https://raw.githubusercontent.com/single0904/3179/main/radial_plot/test_types.csv"
     },
     "params": [
-      {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+      {
+        "name": "hover", 
+        "select": {
+          "type": "point", 
+          "on": "mouseover"
+        }
+      }
     ],
-    "mark": {"type": "arc", "innerRadius": 50, "strokeOpacity": 0.75},
+    "transform": [
+      {"calculate": "datum.Value/datum.Total"  , "as": "new_Val"}
+    ]
+    ,
+    "mark": {"type": "arc", "innerRadius": 100, "strokeOpacity": 0.75},
+    
     "encoding": {
-      "theta": {"field": "value", "type": "quantitative"},
+      "theta": {"field": "Value", "type": "quantitative"},
       "color": {
         "condition":{
           "param": "hover",
-          "field": "category", "title": "Type of cases", 
-          "type": "nominal"},
+          "field": "test_type", "title": "Type of cases", 
+          "type": "nominal"
+        },
           
         "value": "lightgrey"},
       "tooltip":[
-                {"field": "category", "type": "nominal"},
-                {"field": "value", "type": "quantitative"}
+                {"field": "test_type", "type": "nominal"},
+                {"field": "new_Val", "type": "quantitative", "format": ".2%"}
             ]
     }
   }

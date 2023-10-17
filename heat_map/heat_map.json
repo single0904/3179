@@ -74,7 +74,7 @@
             {"field": "date", "timeUnit": "year", "type": "ordinal"},
             {"field": "date", "timeUnit": "month","type": "ordinal"},
             {"field": "date", "timeUnit": "date","type": "ordinal"},
-            {"field": "new_Val", "type": "quantitative", "format": ".2f"}
+            {"field": "new_Val", "type": "quantitative", "format": ".2f", "title": "Number of Covid Tests per 10000 people"}
         ]
     }
   }

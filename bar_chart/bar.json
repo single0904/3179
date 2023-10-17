@@ -1,43 +1,76 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500, "height": 400,
-    "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/bar_chart/stacked_bar%20.csv"
-    },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1000, "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/bar_chart/stacked_bar%20.csv"
+  },
+  "title": {
+    "text": "Total number of cases vs total number of recovered cases in each state"
+  },
+  "transform":[{
+    "calculate": "datum.value/100000" , "as": "new_Val"
+  }],
+  "encoding": {
+      "x": {
+        "field": "state", "title": "States", "type": "nominal"
+        },
+      "y": {
+        "field": "new_Val", "type": "quantitative", "title": "Number of people"
+        },
+        "xOffset": {"field": "group"}
+      },
+  "layer": [
+    {
+    "mark": {"type": "bar"},
     "params": [
-      {"name": "hover", "select": {"type": "point", "on": "mouseover", "fields": ["group"]}}
+    {"name": "hover", "select": {"type": "point", "on": "mouseover", "fields": ["group"]}}
     ],
-    "title": {
-      "text": "Total number of cases vs total number of recovered cases in each state",
-      "subtitle": "Group bar chart",
-      "subtitleColor": "gray"
-    },
-    "mark": "bar",
     "encoding": {
-      "x": {"field": "state", "title": "States", "type": "nominal"},
-      "y": {"field": "value", "type": "quantitative", "title": "Number of people"},
-      "xOffset": {"field": "group"},
+      "x": {
+        "field": "state", "title": "States", "type": "nominal"
+        },
+      "y": {
+        "field": "new_Val", "type": "quantitative", "title": "Number of people"
+        },
       "color": {
         "condition":{
           "param": "hover",
           "field": "group", "title": "Type of cases", 
-          "type": "nominal"},
+          "type": "nominal"
+          },
           
         "value": "lightgrey"
-
       },
       "tooltip": [
-              {"field": "state", "type": "nominal", "title": "states"},
-              {"field": "group", "type": "nominal"},
-              {"field": "value", "type": "quantitative"}
+            {"field": "state", "type": "nominal", "title": "State"},
+            {"field": "group", "type": "nominal"},
+            {"field": "new_Val", "type": "quantitative", "title": "Cases per 100,000 people", "format": ".3f"}
         ],
-          
-        "strokeWidth": {
-          "condition": {"param": "hover", "empty": false, "value": 1},
-          "value": 1
-        },
-        "opacity": {
-          "condition": {"param": "hover", "empty": false, "value": 1},
-          "value": 1
-        }
+        
+      "strokeWidth": {
+        "condition": {
+          "param": "hover", "empty": false, "value": 1
+          },
+        "value": 1
+      },
+      "opacity": {
+        "condition": {"param": "hover", "empty": false, "value": 1},
+        "value": 1
+      }
+    }
+  },
+  {
+    "mark": {"type": "text", "align": "center", "dy": 10},
+    "encoding": {
+      "text": {
+        "field": "new_Val",
+        "type": "quantitative",
+        "format": ".2f"
+      },
+      "color": {
+
+        "value": "black"
+      }
     }
   }
+]
+}

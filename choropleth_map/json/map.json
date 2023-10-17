@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Malaysia Covid-19 Cases per 1000 people",
+    "title": "Malaysia Covid-19 Cases per 100,000 people",
     "width": 500,
     "height": 400,
     "data": { 
@@ -73,7 +73,7 @@
                 "as": "geo"
               },
               {"filter": "datum.Year == Year_selection && datum.Month == Month_selection"},
-              {"calculate": "datum.Cumulative_New_Cases/100000", "as": "new_Val"}
+              {"calculate": "datum.cumulative_new_cases/100000", "as": "new_Val"}
             ],
             "mark": {
                 "type": "geoshape",
@@ -83,16 +83,16 @@
             "encoding": {
                 "shape": {"field": "geo", "type": "geojson"},
                 "color": {
-                    "field": "cases_capita",
+                    "field": "new_Val",
                     "type": "quantitative",
                     "scale": {
                         "range": ["#feedde", "#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
-                    }
+                    },
+                    "title": "Number of New Cases per 100,000 people"
                 },
                     "tooltip": [
                         {"field": "State", "type": "nominal", "title": "State"},
-                        {"field": "cases_capita", "type": "quantitative", "format": ".4f", "title": "Number of Cases per capita state"},
-                        {"field": "new_Val", "type": "quantitative"},
+                        {"field": "new_Val", "type": "quantitative", "title": "Number of new Cases per 100,000 people", "format": ".3f"},
                         {"field": "Year", "type": "ordinal"},
                         {"field": "Month", "type": "ordinal"}
     

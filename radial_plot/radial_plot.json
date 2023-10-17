@@ -15,7 +15,7 @@
       }
     }],
     "transform": [
-      {"calculate": "datum.Value/datum.Total * 100"  , "as": "new_Val"}],
+      {"calculate": "datum.Value/datum.Total"  , "as": "new_Val"}],
     "encoding": {
       "theta": {"field": "Value", "type": "quantitative", "stack": true},
       "radius": {"field": "Value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
@@ -23,7 +23,7 @@
       "tooltip": [
           {"field": "test_type", "title": "Test Type"},
           {"field": "Value", "type": "quantitative"},
-          {"field": "new_Val", "format":".2f"}
+          {"field": "new_Val", "format":".2%"}
         ]
   
     }

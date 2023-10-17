@@ -11,11 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
 
@@ -23,144 +19,214 @@
 
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+    <title>FIT3179 Data Visualisation 2</title>
+
 </head>
 <body>
     <div class="pure-g">
 
+
+        <div class="pure-u-1">
+            <div id="title">
+                COVID-19 IN MALAYSIA
+            </div>
+        </div>
+        
+
+        <div class="pure-u-1-2">
+            <div class = "pure-u-1-8">
+            </div>
+
+            <div class = "pure-u-3-4">
+                <div id="title_description">
+                    
+                        <span style = "color : teal" >COVID-19</span> short for "Coronavirus Disease 2019," is a <span id = "bold">highly contagious</span><br> 
+                        respiratory illness caused by the <span id = "bold">SARS-CoV-2 virus</span>. It was first<br> 
+                        identified in <span id = "bold">China</span> in late 2019 and has since spread globally,<br> 
+                        leading to a <span id = "bold">pandemic</span>.
+                        <br><br>
+
+                        This data visualization provides a snapshot of the <span style = "color : teal" >COVID-19</span> pandemic's<br> 
+                        impact on <span id = "bold">Malaysia</span>. It offers a visual representation of key metrics<br> 
+                        such as the total number of <span id = "bold">cases</span>, daily new cases, <span id = "bold">recoveries</span>, and<br> 
+                        <span id = "bold">fatalities</span>.
+                        <br><br> 
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-u-1-2">
+            <div class = "pure-u-1-8">
+            </div>
+            
+            <div class = "pure-u-3-4">
+                <div id="title_description">
+                    
+                        The charts and graphs help to track the progression of the 
+                        virus, highlighting <span id = "bold">trends</span>, <span id = "bold">spikes</span>, and <span id = "bold">critical milestones</span> in the 
+                        country's response to the pandemic. 
+                        <br><br>
+
+                        In this visualization, 3 datasets were used to illustrate the COVID-19 
+                        situation in <span id = "bold">Malaysia</span> from <span id = "bold">February 2020 to Decemeber 2022</span>. The first 
+                        dataset consists of daily number of <span id = "bold">cases</span> in each <span id = "bold">state</span>.
+                        The second and third dataset is the daily number of <span id = "bold">tests</span> and <span id = "bold">deaths</span> in Malaysia.
+                        <br><br>
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="line"></div>
+
         <div class="pure-u-1-2"; style="margin-bottom: -85px">
             <div class="pure-u-1-8">
-                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840653.png">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="teal" class="bi bi-1-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
+                  </svg>
             </div>
             <div class="pure-u-3-4">
                 <h4>
-                    COUNTRIES WITH THE 10 <span style="color: #3690c0">HIGHEST</span> AND <span style="color: #fd8d3c">LOWEST</span>
-                    AVERAGE LIFE EXPECTANCY RESPECTIVELY ACROSS THE WORLD <br>FROM 2000 TO 2015
+                    THE TOTAL NUMBER OF <span style = "color : steelblue" >CASES</span> AND THE TOTAL NUMBER OF <span style = "color : #ff7f0e" >RECOVERED</span> CASES IN EACH STATE
                     <br>
                 </h4>
             </div>
-            <p style="font-size: 13.5px">
-                To begin with, let us take a look at the top and bottom 10 countries across
-                the world based<br>on their average life expectancy over the 16 years.<br><br>
+            <p style="font-size: 15px">
+                The grouped bar chart below shows that <span id = "bold">Selangor</span>, <span id = "bold">Sabah</span> and <span id = "bold">Sarawak</span> has the<br>
+                highest number of <span style = "color : steelblue" >cases</span> in Malaysia.<br><br> 
+                Furthermore, it also shows that the <span id = "bold">fatality rate</span> is very low in all states as the total<br> 
+                number of <span style = "color : #ff7f0e" >recovered</span> cases 
+                is very similar to the total number of cases.
 
-                <span id="bold">Japan</span> had been the champion in the world by having the <span id="bold"; style="color: #3690c0">highest</span> average life
-                expectancy,<br>whereas <span id="bold">Sierra Leone</span> had been staying at the bottom one by having the 
-                <span id="bold"; style="color: #fd8d3c">lowest</span> average life<br>expectancy, among all other countries.
-                <br><br><br>
+                <br><br>
             </p>
             <div id="bar_chart"></div>
         </div>
 
         <div class="pure-u-1-2"; style="margin-bottom: -85px">
             <div class="pure-u-1-8">
-                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840739.png">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="teal" class="bi bi-2-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
+
+                  </svg>
             </div>
             <div class="pure-u-3-4">
                 <h4 style="margin-top: 28px">
-                    <span style="color: #fd8d3c">ADULT MORTALITY RATE</span> IN DIFFERENT COUNTRIES
-                    ACROSS THE WORLD FROM 2000 TO 2015
-                    <br><br>
+                    NUMBER OF NEW CASES PER 100,000 PEOPLE OF EACH STATE FROM FEBRUARY 2020 TO DECEMBER 2022
+                    <br>
                 </h4>
             </div>
-            <p style="font-size: 13.5px">
-                We first inspect the effect of adult mortality rate on the average life expectancy across different<br>countries.<br><br>
-
-                We see that the countries with relatively <span id="bold">higher <span style="color: #fd8d3c">adult mortality rate</span></span> were predominantly
-                in the <br><span id="bold">Africa</span> continent, such as <span id="bold">Cameroon</span>, <span id="bold">Somalia</span>, <span id="bold">Angola</span>, <span id="bold">Zimbabwe</span>, <span id="bold">Botswana</span> and <span id="bold">South Arfica</span>.<br><br>
-
-                Therefore, it shows that <span id="bold">high <span style="color: #fd8d3c">adult mortality rate</span></span> was one of the major causes of a country's <span id="bold">low <br>average life expectancy</span>.
-                <br><br><br>
+            <p style="font-size: 15px">
+               Even from the start of 2020, <span id = "bold">Selangor</span> and <span id = "bold">Sabah</span> has been the states with the <span id = "bold">highest</span><br> 
+               number of new <span id = "bold">cases</span> in Malaysia.<br><br>
+               Moreover, the number of new cases <span id = "bold">skyrocketed</span> throughout <span id = "bold">2021 until June 2022</span>.<br> 
+               It then gradually falls out and plateaus.  
+               <br><br>
             </p>
             <div id="choropleth_map"></div>
         </div>
 
         <div class="pure-u-1-2"; style="margin-bottom: 15px">
             <div class="pure-u-1-8">
-                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840739.png">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="teal" class="bi bi-3-circle" viewBox="0 0 16 16">
+                    <path d="M7.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"/>
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+                  </svg>
             </div>
             <div class="pure-u-3-4">
                 <h4 style="margin-top: 28px">
-                    <span style="color: #fd8d3c">ADULT MORTALITY RATE</span> IN DIFFERENT COUNTRIES
-                    ACROSS THE WORLD FROM 2000 TO 2015
-                    <br><br>
+                    NUMBER OF DEATHS OF PEOPLE WITH DIFFERENT LEVELS OF VACCINATION
+                    <br>
                 </h4>
             </div>
-            <p style="font-size: 13.5px">
-                We first inspect the effect of adult mortality rate on the average life expectancy across different<br>countries.<br><br>
-
-                We see that the countries with relatively <span id="bold">higher <span style="color: #fd8d3c">adult mortality rate</span></span> were predominantly
-                in the <br><span id="bold">Africa</span> continent, such as <span id="bold">Cameroon</span>, <span id="bold">Somalia</span>, <span id="bold">Angola</span>, <span id="bold">Zimbabwe</span>, <span id="bold">Botswana</span> and <span id="bold">South Arfica</span>.<br><br>
-
-                Therefore, it shows that <span id="bold">high <span style="color: #fd8d3c">adult mortality rate</span></span> was one of the major causes of a country's <span id="bold">low <br>average life expectancy</span>.
-                <br><br><br>
+            <p style="font-size: 15px">
+                Since the vaccination didn't arrive until 2021, the people who passed in 2020<br> were mostly <span style = "color : #d62728" >unvaccinated</span>.<br><br> 
+                Although a large number of people who passed in 2021 and 2022 were also<br> 
+                <span style = "color : #d62728" >unvaccinated</span>, people who were <span style = "color : #ff7f0e" >partially vaccinated</span>(only 1 shot) contributed<br> 
+                quite a decent sum of <span id = "bold">deaths</span> in 2021.<br><br>
+                However, 2022 shows that <span style = "color : steelblue" >fully vaccinated</span> indivuduals has a <span id = "bold">higher fatality rate</span><br> 
+                from COVID-19 in 2022.
+                <br><br>
             </p>
             <div id="stacked_area_chart"></div>
         </div>
 
         <div class="pure-u-1-2"; style="margin-bottom: 15px">
             <div class="pure-u-1-8">
-                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840739.png">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="teal" class="bi bi-4-circle" viewBox="0 0 16 16">
+                    <path d="M7.519 5.057c.22-.352.439-.703.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265ZM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z"/>
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+                  </svg>
             </div>
             <div class="pure-u-3-4">
                 <h4 style="margin-top: 28px">
-                    <span style="color: #fd8d3c">ADULT MORTALITY RATE</span> IN DIFFERENT COUNTRIES
-                    ACROSS THE WORLD FROM 2000 TO 2015
-                    <br><br>
+                    CUMULATIVE SUM OF NEW CASES OF PEOPLE WITH DIFFERENT LEVELS OF VACCINATION
+                    <br>
                 </h4>
             </div>
-            <p style="font-size: 13.5px">
-                We first inspect the effect of adult mortality rate on the average life expectancy across different<br>countries.<br><br>
+            <p style="font-size: 15px">
+                
+                Between <span id = "bold">June 2021 to September 2021</span>, we can see that individuals who were <span style = "color : #ff7f0e" >partially <br> vaccinated</span> 
+                had a <span id = "bold">higher infection rate</span> than those 
+                who were <span style = "color : steelblue" >fully vaccinated</span>, however<br> it eventually plateaus throughout the end of 2021.<br><br>
 
-                We see that the countries with relatively <span id="bold">higher <span style="color: #fd8d3c">adult mortality rate</span></span> were predominantly
-                in the <br><span id="bold">Africa</span> continent, such as <span id="bold">Cameroon</span>, <span id="bold">Somalia</span>, <span id="bold">Angola</span>, <span id="bold">Zimbabwe</span>, <span id="bold">Botswana</span> and <span id="bold">South Arfica</span>.<br><br>
-
-                Therefore, it shows that <span id="bold">high <span style="color: #fd8d3c">adult mortality rate</span></span> was one of the major causes of a country's <span id="bold">low <br>average life expectancy</span>.
-                <br><br><br>
+                In 2022, the <span id = "bold">infection rate</span> of <span style = "color : steelblue" >fully vaccinated</span> individuals was actually the <span id = "bold">highest</span><br> 
+                among the others, indicating that most of the new cases originated from people<br> 
+                who were <span style = "color : steelblue" >fully vaccinated</span>.
+                <br><br>
             </p>
             <div id="line_graph"></div>
         </div>
 
         <div class="pure-u-1-2"; style="margin-bottom: 15px">
             <div class="pure-u-1-8">
-                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840653.png">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="teal" class="bi bi-5-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8Zm15 0A8 8 0 1 0 0 8a8 8 0 0 0 16 0Zm-8.006 4.158c-1.57 0-2.654-.902-2.719-2.115h1.237c.14.72.832 1.031 1.529 1.031.791 0 1.57-.597 1.57-1.681 0-.967-.732-1.57-1.582-1.57-.767 0-1.242.45-1.435.808H5.445L5.791 4h4.705v1.103H6.875l-.193 2.343h.064c.17-.258.715-.68 1.611-.68 1.383 0 2.561.944 2.561 2.585 0 1.687-1.184 2.806-2.924 2.806Z"/>
+                  </svg>
             </div>
             <div class="pure-u-3-4">
                 <h4>
-                    COUNTRIES WITH THE 10 <span style="color: #3690c0">HIGHEST</span> AND <span style="color: #fd8d3c">LOWEST</span>
-                    AVERAGE LIFE EXPECTANCY RESPECTIVELY ACROSS THE WORLD <br>FROM 2000 TO 2015
+                    THE TYPES OF TESTS FOR COVID-19 USED IN MALAYSIA 
                     <br>
                 </h4>
             </div>
-            <p style="font-size: 13.5px">
-                To begin with, let us take a look at the top and bottom 10 countries across
-                the world based<br>on their average life expectancy over the 16 years.<br><br>
-
-                <span id="bold">Japan</span> had been the champion in the world by having the <span id="bold"; style="color: #3690c0">highest</span> average life
-                expectancy,<br>whereas <span id="bold">Sierra Leone</span> had been staying at the bottom one by having the 
-                <span id="bold"; style="color: #fd8d3c">lowest</span> average life<br>expectancy, among all other countries.
-                <br><br><br>
+            <p style="font-size: 15px">
+                There are two types of test used in Malaysia for COVID-19.<br> 
+                The <span style = "color : steelblue" >Real-time Reverse Transcription Polymerase Chain Reaction (RT-PCR)</span><br> 
+                and the <span style = "color : #ff7f0e" >Antigen Rapid Test Kits (RTK-Ag)</span>.<br><br>
+                
+                <span id = "bold">About 75%</span> of people in <span id = "bold">2020</span> used the <span style = "color : steelblue" >PCR</span> test to effectivey test for COVID-19.<br> 
+                But in <span id = "bold">2021 and 2022</span>, majority of the population use the <span style = "color : #ff7f0e" >RTK</span> tests<br> 
+                and only <span id = "bold">less than 20%</span> of the population in 2022 uses the <span style = "color : steelblue" >PCR</span> test<br> 
+                to test for COVID-19.
+                <br><br>
             </p>
             <div id="pie_chart"></div>
         </div>
 
         <div class="pure-u-1-2"; style="margin-bottom: -85px">
             <div class="pure-u-1-8">
-                <img src="https://cdn-icons-png.flaticon.com/512/3840/3840653.png">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" fill="teal" class="bi bi-6-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.21 3.855c1.612 0 2.515.99 2.573 1.899H9.494c-.1-.358-.51-.815-1.312-.815-1.078 0-1.817 1.09-1.805 3.036h.082c.229-.545.855-1.155 1.98-1.155 1.254 0 2.508.88 2.508 2.555 0 1.77-1.218 2.783-2.847 2.783-.932 0-1.84-.328-2.409-1.254-.369-.603-.597-1.459-.597-2.642 0-3.012 1.248-4.407 3.117-4.407Zm-.099 4.008c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629 0-1.06-.744-1.582-1.547-1.582Z"/>
+                  </svg>
             </div>
             <div class="pure-u-3-4">
                 <h4>
-                    COUNTRIES WITH THE 10 <span style="color: #3690c0">HIGHEST</span> AND <span style="color: #fd8d3c">LOWEST</span>
-                    AVERAGE LIFE EXPECTANCY RESPECTIVELY ACROSS THE WORLD <br>FROM 2000 TO 2015
+                    DAILY COVID-19 TESTS IN MALAYSIA FROM FEBRUARY 2020 TO DECEMBER 2022
                     <br>
                 </h4>
             </div>
-            <p style="font-size: 13.5px">
-                To begin with, let us take a look at the top and bottom 10 countries across
-                the world based<br>on their average life expectancy over the 16 years.<br><br>
+            <p style="font-size: 15px">
+                In both <span id = "bold">2020 and 2021</span>, the number of covid cases <span id = "bold">inceased drastically</span> in the<br> 
+                second half of the year.<br><br>
 
-                <span id="bold">Japan</span> had been the champion in the world by having the <span id="bold"; style="color: #3690c0">highest</span> average life
-                expectancy,<br>whereas <span id="bold">Sierra Leone</span> had been staying at the bottom one by having the 
-                <span id="bold"; style="color: #fd8d3c">lowest</span> average life<br>expectancy, among all other countries.
-                <br><br><br>
+                The number of COVID-19 cases only starts to <span id = "bold">decrease</span> in April 2022 and<br> 
+                <span id = "bold">reduces substantially</span> until the end of 2022 .
+                <br><br>
             </p>
             <div id="heat_map"></div>
         </div>

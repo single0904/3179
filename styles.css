@@ -1,7 +1,7 @@
 .pure-g {
     margin-top: 50px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-right: 50px;
 }
 
@@ -22,9 +22,52 @@
     width: 65px;
 }
 
+body {
+    width: 1920px;
+}
+
+.line {
+    width: 100%;
+    margin: 50px 20px 80px 20px;
+    height: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+#title {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    color: teal;
+}
+
+#title_description {
+    text-align: left;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    margin-left: 80px;
+}
+
+h4 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    
+}
+
 #choropleth_map {
-    margin-top: 5px;
-    margin-left: 3px;
+    margin-top: 20px;
+    margin-left: 100px;
     height: 400px;
     width: 600px;
     font-size: 10;
@@ -32,13 +75,14 @@
 
 #bar_chart {
     margin-top: 7px;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-bottom: 200px;
     height: 400px;
-    width: 1000px;
+    width: 600px;
     font-size: 10;
 }
 
-#pie_chart {
+#stacked_area_chart {
     margin-top: 7px;
     margin-left: 50px;
     height: 400px;
@@ -47,14 +91,14 @@
 }
 
 #line_graph {
-    margin-top: 7px;
+    margin-top: 40px;
     margin-left: 50px;
     height: 400px;
     width: 600px;
     font-size: 10;
 }
 
-#radial_plot {
+#pie_chart {
     margin-top: 7px;
     margin-left: 100px;
     height: 400px;

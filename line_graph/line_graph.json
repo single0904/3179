@@ -5,15 +5,24 @@
   "data": {"url": "https://raw.githubusercontent.com/single0904/3179/main/line_graph/cumulative_vac.csv"},
   "params": [
         {
-            "name": "Year_selection",
-            "value": 2021,
-            "bind": {
-              "input": "range",
-              "min": 2020,
-              "max": 2022,
-              "step": 1,
-              "name": "Year:"
-            }
+          "name": "Year_selection",
+          "value": 2021,
+          "bind": 
+          {
+            "input": "range",
+            "min": 2020,
+            "max": 2022,
+            "step": 1,
+            "name": "Year:"
+          }
+        },
+        {
+          "name": "hover", 
+          "select": 
+          {
+            "type": "point", 
+            "on": "mouseover"
+          }
         }
   ],
   "transform": [{
@@ -32,8 +41,13 @@
     "x": {"timeUnit": "yearmonth", "field": "Date", "type": "ordinal"},
     "y": {"field": "new_Val", "type": "quantitative", "title":"Cases per 100,000 people"},
     "color": {
-      "field": "Vax_type",
-      "title": "Types of Vaccinated Cases"
+      "condition":{
+        "param": "hover",
+        "field": "Vax_type",
+        "title": "Types of Vaccinated Cases", 
+        "type": "nominal"},
+        
+      "value": "lightgrey"
     },
     "tooltip": [
         {"timeUnit": "month","field": "Date"},

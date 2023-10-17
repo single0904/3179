@@ -89,8 +89,8 @@
                     }
                 },
                     "tooltip": [
-                        {"field": "State", "type": "nominal", "title": "states"},
-                        {"field": "cases_capita", "type": "quantitative", "format": ".4f"},
+                        {"field": "State", "type": "nominal", "title": "State"},
+                        {"field": "cases_capita", "type": "quantitative", "format": ".4f", "title": "Number of Cases per capita state"},
                         {"field": "Cumulative New Cases", "type": "quantitative"},
                         {"field": "Year", "type": "ordinal"},
                         {"field": "Month", "type": "ordinal"}

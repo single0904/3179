@@ -7,10 +7,19 @@
     "data": {
       "url": "https://raw.githubusercontent.com/single0904/3179/main/pie_chart/pie_data.csv"
     },
+    "params": [
+      {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
+    ],
     "mark": {"type": "arc", "innerRadius": 50, "strokeOpacity": 0.75},
     "encoding": {
       "theta": {"field": "value", "type": "quantitative"},
-      "color": {"field": "category", "type": "nominal"},
+      "color": {
+        "condition":{
+          "param": "hover",
+          "field": "category", "title": "Type of cases", 
+          "type": "nominal"},
+          
+        "value": "lightgrey"},
       "tooltip":[
                 {"field": "category", "type": "nominal"},
                 {"field": "value", "type": "quantitative"}

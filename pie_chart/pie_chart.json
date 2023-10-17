@@ -4,11 +4,23 @@
         "title": {
         "text": "The number of cases of different age groups in Malaysia"
       },
-      "width": 500, "height": 400,
+      "width": 400, "height": 300,
     "data": {
       "url": "https://raw.githubusercontent.com/single0904/3179/main/radial_plot/test_types.csv"
     },
     "params": [
+      {
+        "name": "Year_selection",
+        "value": 2021,
+        "bind": 
+        {
+          "input": "range",
+          "min": 2020,
+          "max": 2022,
+          "step": 1,
+          "name": "Year:"
+        }
+      },
       {
         "name": "hover", 
         "select": {
@@ -18,9 +30,10 @@
       }
     ],
     "transform": [
-      {"calculate": "datum.Value/datum.Total"  , "as": "new_Val"}
-    ]
-    ,
+      {"calculate": "datum.Value/datum.Total"  , "as": "new_Val"},
+      {"filter": "datum.Year == Year_selection"}
+    ],
+    
     "mark": {"type": "arc", "innerRadius": 100, "strokeOpacity": 0.75},
     
     "encoding": {

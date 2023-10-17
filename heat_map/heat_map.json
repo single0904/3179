@@ -15,11 +15,19 @@
                 "step": 1,
                 "name": "Year:"
               }
+          },
+          {
+            "name": "hover", 
+            "select": 
+            {
+              "type": "point", 
+              "on": "mouseover"
+            }
           }
     ],
     "config": {
         "view": {
-            "strokeWidth": 0,
+            "strokeWidth": 1,
             "step": 13
         },
         "axis": {
@@ -31,8 +39,8 @@
       "field": "date",
       "as": "month"
     },
-    {"filter": {"timeUnit": "year", "field": "date", "equal": "Year_selection"}}
-    ],
+    {"filter": {"timeUnit": "year", "field": "date", "equal": "Year_selection"}},
+    {"calculate": "datum.value/10000", "as": "new_Val"}],
     "mark": "rect",
     "encoding": {
         "x": {
@@ -52,9 +60,21 @@
             "title": "Month"
         },
         "color": {
-            "field": "value",
-            "type": "quantitative"
-        }
+            "condition":{
+                "param": "hover",
+                "field": "new_Val", 
+                "title": "Number of Covid Tests per 10000 people", 
+                "type": "quantitative"
+            },
+                
+              "value": "lightgrey"
+        },
+        "tooltip": [
+            {"field": "date", "timeUnit": "year", "type": "ordinal"},
+            {"field": "date", "timeUnit": "month","type": "ordinal"},
+            {"field": "date", "timeUnit": "date","type": "ordinal"},
+            {"field": "new_Val", "type": "quantitative", "format": ".2f"}
+        ]
     }
   }
   

@@ -1,4 +1,4 @@
-﻿State,Year,Month,Time ,Cumulative_New_Cases,Cumulative Recovered Cases,Population,cases_capita
+﻿State,Year,Month,Time ,cumulative_new_cases,Cumulative Recovered Cases,Population,cases_capita
 Johor,2020,2,1,1,8,4100000,2.44E-07
 Johor,2020,3,2,344,44,4100000,8.39E-05
 Johor,2020,4,3,656,364,4100000,0.00016

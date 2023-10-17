@@ -73,7 +73,7 @@
                 "as": "geo"
               },
               {"filter": "datum.Year == Year_selection && datum.Month == Month_selection"},
-              {"calculate": "datum.Cumulative New Cases/100000", "as": "new_Val"}
+              {"calculate": "datum.Cumulative_New_Cases/100000", "as": "new_Val"}
             ],
             "mark": {
                 "type": "geoshape",
